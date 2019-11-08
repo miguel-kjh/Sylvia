@@ -1,0 +1,253 @@
+actions:
+- utter_acquaint_quote
+- utter_ask_about_money_amount
+- utter_ask_address
+- utter_ask_financial_needs
+- utter_ask_for_bank_details
+- utter_ask_for_date
+- utter_ask_for_id
+- utter_ask_for_licence
+- utter_ask_for_risk
+- utter_ask_for_type_account
+- utter_ask_goals
+- utter_ask_information_contact
+- utter_ask_localitation
+- utter_ask_lumpo_or_monthly_amount
+- utter_ask_name
+- utter_ask_privacy_policies
+- utter_ask_products
+- utter_ask_property_used
+- utter_ask_regular_drive
+- utter_ask_relation_invest_risk
+- utter_ask_rent_or_own
+- utter_ask_risk_class
+- utter_ask_roommates
+- utter_ask_time_of_plan
+- utter_ask_transaction
+- utter_ask_type_insurance
+- utter_ask_type_place
+- utter_ask_type_roof
+- utter_ask_type_walls
+- utter_ask_vehicle_details
+- utter_confirm_credit
+- utter_confirm_credit_check
+- utter_finish_sing_up
+- utter_give_offer
+- utter_goodbye
+- utter_greet
+- utter_iamabot
+- utter_is_part_cluster
+- utter_nice_meet
+- utter_propouse_funds
+- utter_provide
+- utter_quick_quote_products
+- utter_rommates_amount
+- utter_warn_email_imformation
+entities:
+- ADDRESS
+- DATE
+- EMAIL
+- ID
+- PERSON
+- TELEPHONE
+intents:
+- give_money_amount
+- choose_tile
+- say_rent
+- choose_contents
+- choose_townhouse
+- ask_for_quick_quote
+- deny
+- give_rommates_amount
+- give_address
+- affirm
+- choose_residencial_propuse
+- choose_complex
+- choose_brick
+- greet
+- can_answer_financial_questions
+- ask_for_quote
+- give_name_account
+- give_type_account
+- choose_two_funds
+- choose_equites
+- give_id
+- give_account_number
+- choose_moderate_risk
+- give_name_bank
+- goodbye
+- give_date
+- choose_take_sustancial_risk
+- choose_plan_of_3_years
+- investment_money
+- give_name
+- choose_retirement
+- give_tel
+- give_email
+- choose_number_3
+- give_logbook
+- give_licence
+- choose_thrid-party_fire_theft
+- greet_and_ask_for_quote
+- give_branch_code
+- bot_challenge
+- accept_offer
+- choose_high_capital
+- choose_monthly_amount
+templates:
+  utter_acquaint_quote:
+  - text: "I\u2019m here to assist you. What type of Insurance are you looking for?\n\
+      1. Car Insurance\n2. Health Insurance\n3. Car, Home & Building Insurance\nWhat\
+      \ will it be?"
+  utter_ask_about_money_amount:
+  - text: What is the monthly premium that you would like to invest?
+  utter_ask_address:
+  - text: "Thank you!\nPlease provide the physical address of where the vehicle will\
+      \ be kept overnight."
+  utter_ask_financial_needs:
+  - text: "Thank you. We will now do a very brief financial needs  analysis for us\
+      \ to understand your needs and how we can best serve you.\nAre you happy to\
+      \ answer some questions for me?"
+  utter_ask_for_bank_details:
+  - text: "Sure! Let\u2019s do it!\nPlease provide your banking details:\n1.Bank\n\
+      2.Account Name\n3.Account Number\n4.Branch Code"
+  utter_ask_for_date:
+  - text: "What date would you like for your account to be debited?\nDate options\
+      \ are 1st, 15th, 20th and 28th  of every month"
+  utter_ask_for_id:
+  - text: "Thank you!\nPlease provide your South African ID number"
+  utter_ask_for_licence:
+  - text: What type of Licence do you have and when did you get it?
+  utter_ask_for_risk:
+  - text: "Thank you\nWhich one of the following statements comes closest to the amount\
+      \ of financial risk that you are willing to take when you make investments?\n\
+      A. Not willing to take any risks.\nB. Take average risks expecting to earn average\
+      \ returns.\nC. Take above average risks expecting to earn above average returns.\n\
+      D. Take substantial risks expecting to earn substantial returns."
+  utter_ask_for_type_account:
+  - text: What type of account is this?
+  utter_ask_goals:
+  - text: "Thank you!!\nWhat is/are the financial goal(s) of your investments? (You\
+      \ may choose more than one.) \nA.To get life protection\nB.To beat inflation\n\
+      C.To generate steady income D. To meet personal goals such as wedding, vacation,\
+      \ etc.\nE.For children\u2019s education\nF.For home purchase\nG.For retirement"
+  utter_ask_information_contact:
+  - text: "Good choice! Please enter the following:\n1. Email address \n2. Contact\
+      \ number"
+  - text: "Nice choice! Please enter the following:\n1. Email address \n2. Contact\
+      \ number"
+  utter_ask_localitation:
+  - text: "What kind of location is your house in?\nA) Residential suburb\nB) Housing\
+      \ estate\nC) Complex"
+  utter_ask_lumpo_or_monthly_amount:
+  - text: Do you want to invest a lump sum or a monthly amount?
+  utter_ask_name:
+  - text: "No Problem... Shall we get started :-)\nWho am I speaking to\nGive me you\
+      \ complete name"
+  - text: "No Problem... Shall we get started \U0001F601\nWho am I speaking to?\n\
+      Give me you complete name"
+  utter_ask_privacy_policies:
+  - text: "Before we get started on our quote, my lawyers tell me that you\u2019ll\
+      \ need to accept our FAIS and privacy declarations. You should read these documents\
+      \ because they outline how Liberty and Standard Insurance Limited will use,\
+      \ disclose and protect your personal information, as well as give you more info\
+      \ on my financial service provider, Liberty Group Limited. So what do you say?\n\
+      I accept, don\xB4t accept or read declarations"
+  utter_ask_products:
+  - text: "Thank you\nDo you have any product knowledge and/or trading experience\
+      \ for the following products?\nBonds\nEquities\nCommodities\nFunds"
+  utter_ask_property_used:
+  - text: "Now we need to know what this property is used for.\nA) Residential purposes\n\
+      B) It\u2019s a holiday house\nC) Residential and business"
+  utter_ask_regular_drive:
+  - text: "Uploaded file received!\nWill you be the regular driver?\n1.Yes\n2.No"
+  utter_ask_relation_invest_risk:
+  - text: "Thank you\nHigher returns generally mean taking on greater risk. The following\
+      \ describes the potential loss of five different hypothetical investment portfolios\
+      \ in a negative year, with the associated potential gains in an average year.\
+      \ Which one is the most preferable to you? \nA. I prefer to invest in an extremely\
+      \ high risk portfolio.\nB. I prefer to invest in a high risk portfolio.\nC.\
+      \ I prefer to invest in a moderate risk portfolio.\nD. I prefer to invest in\
+      \ a low risk portfolio.\nE. I prefer to invest in a minimal risk portfolio"
+  utter_ask_rent_or_own:
+  - text: "Tell me, do you rent or own your home?\nA) I rent it\nB) I own it"
+  utter_ask_risk_class:
+  - text: "Thank you\nRisk Class Definition\n1 Security of capital is important to\
+      \ you.\n2 Your priority is to protect your accumulated wealth.\n3 You are investing\
+      \ for potentially moderate income and/or growth of capital over a medium term.\n\
+      4 You are investing for high capital growth over the medium to long term.\n\
+      5 You want to accumulate a significant amount of wealth."
+  utter_ask_roommates:
+  - text: "Do you have any roommates who aren\u2019t members of your family?\nA) Yes\
+      \ I do\nB) No I don\u2019t"
+  utter_ask_time_of_plan:
+  - text: "Thank you!!\nIn considering your financial goal(s), which of the following\
+      \ investment time horizons is most suitable for your financial plan or financial\
+      \ situation?\nA. 1 years\nB. 3 years\nC. 5 years\nD. 10 years"
+  utter_ask_transaction:
+  - text: Do you agree that we can proceed with the transaction now?
+  utter_ask_type_insurance:
+  - text: "What type of Insurance are you looking for?\n1. Comprehensive car insurance\n\
+      2. Third-party, fire and theft car insurance\n3. Third-party only"
+  utter_ask_type_place:
+  - text: "Great, what kind of place is it?\nA)Townhouse\nB)Garden cottage\nC)Flat"
+  utter_ask_type_roof:
+  - text: "Alright, great. And your roof - what\u2019s that made of?\nA) Tile\nB)\
+      \ Asbestos\nC) Wood"
+  utter_ask_type_walls:
+  - text: "Mow bear with me, please. I need to know what your walls are made of?\n\
+      A) Brick\nB) Stone\nC) Cement"
+  utter_ask_vehicle_details:
+  - text: "Please provide the vehicle details:(YEAR, MAKE, MODEL and DESCRIPTION)\
+      \ or Simply upload a copy of the logbook.\nHow easy is that? ;-)"
+  utter_confirm_credit:
+  - text: Ok.  Does  DSP Credit Risk Fund and  Mirae Asset Large Cap Fund suit you?
+  utter_confirm_credit_check:
+  - text: "To get you the lowest premiums, I have to run a credit check on your ID\
+      \ number.\nDo you give me a thumbs up?\nA) Yes\nB) No"
+  utter_finish_sing_up:
+  - text: "Congratulations! You are now signed up!\nYour account will be debited on\
+      \ the 28th of every month with the amount of R1269.92.\nIs there anything else\
+      \ that I can help you with?"
+  utter_give_offer:
+  - text: "This is what I can offer you...Third-party, fire and theft car insurance\
+      \ for a premium ofR1269.92 per month with an excess of R6375.(Quote Ref #C4559)What\
+      \ would you like to do?\n1.I accept this quote, sign me up!\n2.Send me a copy\
+      \ of the quote via email - I will review it later.\n3.Get a consultant to call\
+      \ me."
+  utter_goodbye:
+  - text: Bye
+  - text: Bye!Have a good day!
+  utter_greet:
+  - text: Hello... My name is Sylvia your investment assistant. How can I help?
+  - text: Hi,I am Sylvia your investment assistant. How can I help?
+  - text: Hi, This is Sylvia, Your investment assistant. How can I help?
+  - text: Welcome! I am Sylvia. Did you know that this is the only virtual assistant
+      in South Africa that not only allows you to get a quote but also take out a
+      policy, without ever having to speak to a consultant over the phone. Convenient
+      right?
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_is_part_cluster:
+  - text: "Very nice! Now tell me, is it part of a cluster?\nA) Yes it is\nB) Nope,\
+      \ it\u2019s not"
+  utter_nice_meet:
+  - text: Nice to meet you!
+  - text: It's nice to meet you.
+  - text: Pleased to meet you.
+  utter_propouse_funds:
+  - text: "Thank you\nWe have calculated that you are a medium risk investor. I propose\
+      \ the following funds for you interest\nDSP Credit Risk Fund\nUTI-ST Income\
+      \ Fund-Inst\nMirae Asset Large Cap Fund\nReliance Low Duration Fund\nWould you\
+      \ like to invest into one fund only, or would you like to spread your investment\
+      \ into more than one fund?"
+  utter_provide:
+  - text: "Could you please provide your\nID number\nCell phone number\nYour email\
+      \ address"
+  utter_quick_quote_products:
+  - text: "Which one of our simple and effective products can I help you get a quote\
+      \ on?\nA) Vehicle\nB) Contents\nC) Building"
+  utter_rommates_amount:
+  - text: Nice! Exactly how many roommates do you have?
+  utter_warn_email_imformation:
+  - text: Thank you!!,We will forward all the relevant documents to your email address.

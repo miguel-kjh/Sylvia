@@ -1,0 +1,407 @@
+## intent:accept_offer
+- 1.I Accept this quote, sign me up!
+- Yeah!! it is a good offer. I accept, sign me up!
+- sign me up
+- I accept, sign me up
+- sign me, please
+- I accept
+- ok, sign me up
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+
+## intent:ask_for_quick_quote
+- Get a quick quote
+- I need a quick quote, please
+- I want a quick quote
+- get a quick quote
+- get a quick quote
+
+## intent:ask_for_quote
+- I need a quote,please
+- Could you help me? I want to apply for insurance
+- Could I request a quote?
+- Can you help me to choose a quote?
+- I need a quote
+- i need a quote
+- I need a new quick quote
+- i need a new quick quote
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+## intent:can_answer_financial_questions
+- Yes, I am
+- No problem
+- whatever
+- I do not care
+- Ok
+- Yeah
+- Yeah, of course
+- yes, ask me anything
+- Yes I am
+- yes, any problem
+- yes, I am
+- yes I do
+- ok
+- yes I accept
+
+## intent:choose_brick
+- brick
+- A) brick
+- brick
+
+## intent:choose_complex
+- complex
+
+## intent:choose_contents
+- contents
+- i choose contents
+- B) Contents
+- contents
+
+## intent:choose_equites
+- Equities
+- equities
+- i choose equities
+- equities
+
+## intent:choose_high_capital
+- You are investing for high capital growth over the medium to long term
+- four
+- high capital
+
+## intent:choose_moderate_risk
+- I prefer to invest in a moderate risk portfolio
+- moderate risk
+- option c
+- c
+- moderate
+- c
+
+## intent:choose_monthly_amount
+- Monthly amount
+- monthly
+
+## intent:choose_number_3
+- 3.Car, Home & Building Insurance
+- Car, Home & Building Insurance
+- number 3
+- number 3
+- 3
+- car,home, and the other
+- car,home...
+- Car, Home & Building Insurance
+
+## intent:choose_plan_of_3_years
+- three years
+- 3
+- 3 years
+- option b
+- option B
+- B
+- B. 3 years
+- 3 years
+- B
+- 4
+
+## intent:choose_residencial_propuse
+- residential purpouse
+- residential only
+- residential purposes
+
+## intent:choose_retirement
+- for retirement
+- retirement
+- G
+- g
+- G.For retirement
+- G
+- G
+
+## intent:choose_take_sustancial_risk
+- Take substantial risks expecting to earn substantial returns.
+- Take substantial risks
+- Take substantial
+- Option D
+- d
+- substantial risks
+
+## intent:choose_thrid-party_fire_theft
+- 2.Third-party, fire and theft car insurance
+- Third-party, fire and theft car insurance
+- thrid-party, fire and theft
+- fire and theft
+- number 2
+- 2
+- fire, and theft
+- fire, theft...
+- fire and theft
+
+## intent:choose_tile
+- tile
+- A) title
+- complex
+- C) Complex
+- tile
+
+## intent:choose_townhouse
+- Townhouse
+- normal house
+- A) Townhause
+- townhouse
+
+## intent:choose_two_funds
+- I would like to spread it into two funds
+- both
+- either of the two
+- I would like to spread it into two funds
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- Nope
+
+## intent:give_account_number
+- 1223334444
+- 3434535567
+- 3232509850
+- 1223334444
+- 1223334444
+- 101010101010
+
+## intent:give_address
+- [36 Bever Hights, Carltonville, Port Elizabeth](ADDRESS)
+- [Bouquet St, Cape Town, 8000](ADDRESS)
+- [Main Rd, 7935](ADDRESS)
+- [36 Bever Hights, Carltonville, Port Elizabeth](ADDRESS)
+- [36 Bever Hights, Carltonville, Port Elizabeth](ADDRESS)
+- [30 Joan avenue, La Montagne, Pretoria, 0184](ADDRESS)
+
+## intent:give_branch_code
+- 198 765
+- 354 324
+- 786 972
+- 198 765
+- 198 765
+
+## intent:give_date
+- 1st
+- 28th
+- 15th
+- 20th
+- 28th
+- 1 st
+- 28 th
+- 15 th
+- 20 th
+- 28 th
+- 28 th
+- 28 th
+- 1st
+
+## intent:give_email
+- 1.[GBarnes@gmail.com](EMAIL)
+- my email is [heisenberg@gmail.com](EMAIL)
+- this is my account [miguel@gmail.com](EMAIL)
+- [larry@hotmail.com](EMAIL)
+- [kelly@gmail.com](EMAIL)
+- [angel@gmail.com](EMAIL)
+- [tesla_18@gmail.com](EMAIL)
+- [keli63_29@hotmail.com](EMAIL)
+
+## intent:give_id
+- [890616 0135 008](ID)
+- [384933 3334 434](ID)
+- [890616 0135 008](ID)
+- [651006 5864 078](ID)
+
+## intent:give_licence
+- RSA Drivers Licence, Code 8, I got it in [Nov 2008](DATE)
+- RSA Drivers Licence, Code 8, [10/12/2002](DATE)
+- RSA Drivers Licence, Code 8, [Feb 2010](DATE)
+- RSA Drivers Licence, Code 8, I got it in [Nov 2008](DATE)
+- RSA Drivers Licence, Code 8, I got it in [Nov 2008](DATE).
+
+## intent:give_logbook
+- Uploading file
+- uploading file
+- uploading file
+
+## intent:give_money_amount
+- R1000 per month
+- 333 per month
+- R500 per month
+- 38439 every month
+- R1000 per month
+- R10000
+
+## intent:give_name
+- I am [Conor McGregor](PERSON)
+- My name is [Ada Shelby](PERSON)
+- I am [Barney Gills](PERSON)
+- [Larry Trump](PERSON)
+- I'm [Mary Mars](PERSON)
+- [Walter White](PERSON) is my name
+- [Miguel Medina](PERSON)
+- [Larry Fields](PERSON)
+- This is [Kelly Trump](PERSON)
+- [Miguel Medina](PERSON:miguel medina)
+
+## intent:give_name_account
+- B.Gills
+- M.Medina
+- D.Trump
+- M.Medina
+- L.Fields
+- B.Gills
+
+## intent:give_name_bank
+- NedBank
+- African Bank
+- Bidvest Bank
+- Capitec Bank
+- Discovery
+- First National Bank
+- FirstRand Bank
+- Grindrod Bank
+- Imperial Bank South Africa
+- Investec Bank
+- Nedbank Limited
+- Sasfin Bank
+- Standard Bank of South Africa
+- Ubank
+- TymeBank
+- IMB Bank
+- NedBank
+- NedBank
+- FNB
+
+## intent:give_rommates_amount
+- 2 rommates
+- 5
+- 1
+- one rommates
+- two rommates
+- 3 roommates
+
+## intent:give_tel
+- [083 123 4567](TELEPHONE)
+- [921 333 2923](TELEPHONE)
+- [834 123 4587](TELEPHONE)
+- [928 182 7773](TELEPHONE)
+- [084 565 7864](TELEPHONE)
+
+## intent:give_type_account
+- Cheque Account
+- Checking Accounts
+- Brokerage Accounts
+- investment retirement accounts
+- A Interest Bearing Checking Accounts
+- Dividend/Interest Checking Accounts
+- Savings Accounts
+- A Money Market Account
+- CD
+- Deposit Account
+- A Transactional Account
+- A Demand Deposit Account
+- Current Accounts
+- A Peer-To-Peer Lending Account
+- Cheque Account
+- cheque account
+- Monthly amount
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- No, that’s it. Thanks! Bye
+- No, goodbye
+- Thanks but no, see you
+- no, thank you! Bye
+- see you
+- yes, I am
+- bye
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- hi
+- hello
+- hi
+- hi
+- hello
+
+## intent:greet_and_ask_for_quote
+- Hi.I need a quote,please
+- Good evening.I need a quote,please
+- Hello, i need help. Can I request a quote?
+- Good morning. Could I request a quote?
+- Hello, Can you Help me to choose a quote?
+- hello, Can you offer me a quote?
+- Hi. I need a quote, please.
+
+## intent:investment_money
+- Hi Sylvia. I want to investment my money today
+- Hi Sylvia, I want to investment my money today
+- I want to investment my money today
+- i want to investment
+- i want to investment money
+- i want investment my money
+- Hello, I want to investment my money today
+- hi, I want to investment my money today
+- Hello, i want to investment my money
+- I want to investment my money today
+
+## intent:say_rent
+- rent
+- I rent it
+- i rent it
+
+## synonym:miguel medina
+- Miguel Medina
+
+## regex:give_account_number
+- \d{10}$
+
+## regex:give_address
+- \d*([A-Za-z ]+,){1,2}[A-Za-z ]*\d*
+
+## regex:give_branch_code
+- \d{3}\s\d{3}$
+
+## regex:give_email
+- [A-Za-z0-9\.\+_-]+@[A-Za-z0-9\._-]+\.[a-zA-Z]+$
+
+## regex:give_id
+- \d{6}\s\d{4}\s\d{3}$
+
+## regex:give_name_account
+- [A-Z]\.[A-Z][a-z]+$
+
+## regex:give_tel
+- (\d{3}\s*){2}\d{4}$

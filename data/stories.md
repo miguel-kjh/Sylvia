@@ -1,0 +1,606 @@
+
+## happy path
+* greet
+  - utter_greet
+
+## say goodbye
+* goodbye
+  - utter_goodbye
+
+## bot challenge
+* bot_challenge
+  - utter_iamabot
+
+## interactive_story_1
+* greet_and_ask_for_quote
+    - utter_greet
+    - utter_acquaint_quote
+* choose_number_3
+    - utter_ask_name
+* give_name
+    - utter_nice_meet
+    - utter_ask_type_insurance
+* choose_thrid-party_fire_theft
+    - utter_ask_information_contact
+* give_email
+* give_tel
+    - utter_ask_for_id
+* give_id
+    - utter_ask_vehicle_details
+* give_logbook
+    - utter_ask_regular_drive
+* affirm
+    - utter_ask_address
+* give_address
+    - utter_ask_for_licence
+* give_licence
+    - utter_give_offer
+* accept_offer
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+* give_branch_code
+    - utter_ask_for_type_account
+* give_type_account
+    - utter_ask_for_date
+* give_date
+    - utter_finish_sing_up
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet
+* ask_for_quote
+    - utter_acquaint_quote
+* choose_number_3
+    - utter_ask_name
+* give_name
+    - utter_nice_meet
+    - utter_ask_type_insurance
+* choose_thrid-party_fire_theft
+    - utter_ask_information_contact
+* give_email
+* give_tel
+    - utter_ask_for_id
+* give_id
+    - utter_ask_vehicle_details
+* give_logbook
+    - utter_ask_regular_drive
+* affirm
+    - utter_ask_address
+* give_address
+    - utter_ask_for_licence
+* give_licence
+    - utter_give_offer
+* accept_offer
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+* give_branch_code
+    - utter_ask_for_type_account
+* give_type_account
+    - utter_ask_for_date
+* give_date
+    - utter_finish_sing_up
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* ask_for_quote
+    - utter_acquaint_quote
+* choose_number_3
+    - utter_ask_name
+* give_name
+    - utter_nice_meet
+    - utter_ask_type_insurance
+* choose_thrid-party_fire_theft
+    - utter_ask_information_contact
+* give_email
+* give_tel
+    - utter_ask_for_id
+* give_id
+    - utter_ask_vehicle_details
+* give_logbook
+    - utter_ask_regular_drive
+* affirm
+    - utter_ask_address
+* give_address
+    - utter_ask_for_licence
+* give_licence
+    - utter_give_offer
+* accept_offer
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+* give_branch_code
+    - utter_ask_for_type_account
+* give_type_account
+    - utter_ask_for_date
+* give_date
+    - utter_finish_sing_up
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* greet_and_ask_for_quote
+    - utter_greet
+    - utter_acquaint_quote
+* choose_number_3
+    - utter_ask_name
+* give_name
+    - utter_nice_meet
+    - utter_ask_type_insurance
+* choose_thrid-party_fire_theft
+    - utter_ask_information_contact
+* give_tel
+* give_email
+    - utter_ask_for_id
+* give_id
+    - utter_ask_vehicle_details
+* give_logbook
+    - utter_ask_regular_drive
+* affirm
+    - utter_ask_address
+* give_address
+    - utter_ask_for_licence
+* give_licence
+    - utter_give_offer
+* accept_offer
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+* give_branch_code
+    - utter_ask_for_type_account
+* give_type_account
+    - utter_ask_for_date
+* give_date
+    - utter_finish_sing_up
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* greet
+    - utter_greet
+* ask_for_quote
+    - utter_acquaint_quote
+* choose_number_3
+    - utter_ask_name
+* give_name
+    - utter_nice_meet
+    - utter_ask_type_insurance
+* choose_thrid-party_fire_theft
+    - utter_ask_information_contact
+* give_tel
+* give_email
+    - utter_ask_for_id
+* give_id
+    - utter_ask_vehicle_details
+* give_logbook
+    - utter_ask_regular_drive
+* affirm
+    - utter_ask_address
+* give_address
+    - utter_ask_for_licence
+* give_licence
+    - utter_give_offer
+* accept_offer
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+* give_branch_code
+    - utter_ask_for_type_account
+* give_type_account
+    - utter_ask_for_date
+* give_date
+    - utter_finish_sing_up
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* ask_for_quote
+    - utter_acquaint_quote
+* choose_number_3
+    - utter_ask_name
+* give_name
+    - utter_nice_meet
+    - utter_ask_type_insurance
+* choose_thrid-party_fire_theft
+    - utter_ask_information_contact
+* give_tel
+* give_email
+    - utter_ask_for_id
+* give_id
+    - utter_ask_vehicle_details
+* give_logbook
+    - utter_ask_regular_drive
+* affirm
+    - utter_ask_address
+* give_address
+    - utter_ask_for_licence
+* give_licence
+    - utter_give_offer
+* accept_offer
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+* give_branch_code
+    - utter_ask_for_type_account
+* give_type_account
+    - utter_ask_for_date
+* give_date
+    - utter_finish_sing_up
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* ask_for_quote
+    - utter_acquaint_quote
+* choose_number_3
+    - utter_ask_name
+* give_name
+    - utter_nice_meet
+    - utter_ask_type_insurance
+* choose_thrid-party_fire_theft
+    - utter_ask_information_contact
+* give_email{"EMAIL": "email@hotmail.com"}
+* give_tel
+    - utter_ask_for_id
+* give_tel{"ID": "890616 0135 008"}
+    - utter_ask_vehicle_details
+* give_logbook
+    - utter_ask_regular_drive
+* affirm
+    - utter_ask_address
+* give_address
+    - utter_ask_for_licence
+* give_licence
+    - utter_give_offer
+* accept_offer
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+* give_branch_code
+    - utter_ask_for_type_account
+* give_type_account
+    - utter_ask_for_date
+* give_date
+    - utter_finish_sing_up
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* ask_for_quote
+    - utter_acquaint_quote
+* choose_number_3
+    - utter_ask_name
+* give_name{"PERSON": "Miguel Medina"}
+    - utter_ask_type_insurance
+    - utter_ask_type_insurance
+* choose_thrid-party_fire_theft
+    - utter_ask_information_contact
+* give_email
+* give_tel{"TELEPHONE": "834 123 4587"}
+    - utter_ask_for_id
+* give_id{"id": "384933 3334 434"}
+    - utter_ask_vehicle_details
+* give_logbook
+    - utter_ask_regular_drive
+* affirm
+    - utter_ask_address
+* give_address{"ADDRESS": "36 Bever Hights, Carltonville, Port Elizabeth"}
+    - utter_ask_for_licence
+* give_licence{"DATE": "Nov 2008"}
+    - utter_give_offer
+* accept_offer
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+* give_branch_code
+    - utter_ask_for_type_account
+* give_type_account
+    - utter_ask_for_date
+* give_date
+    - utter_finish_sing_up
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* greet_and_ask_for_quote
+    - utter_greet
+    - utter_acquaint_quote
+* choose_number_3
+    - utter_ask_name
+* give_name{"PERSON": "Larry Fields"}
+    - utter_nice_meet
+    - utter_ask_type_insurance
+* choose_thrid-party_fire_theft
+    - utter_ask_information_contact
+* give_email{"EMAIL": "larry@hotmail.com"}
+* give_tel{"TELEPHONE": "928 182 777"}
+    - utter_ask_for_id
+* give_id{"ID": "890616 0135 008"}
+    - utter_ask_vehicle_details
+* give_logbook
+    - utter_ask_regular_drive
+* affirm
+    - utter_ask_address
+* give_address{"ADDRESS": "36 Bever Hights, Carltonville, Port Elizabeth"}
+    - utter_ask_for_licence
+* give_licence{"DATE": "Nov 2008"}
+    - utter_give_offer
+* accept_offer
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+* give_branch_code
+    - utter_ask_for_type_account
+* give_type_account
+    - utter_ask_for_date
+* give_date
+    - utter_finish_sing_up
+* goodbye
+    - utter_goodbye
+
+## interactive_story_10
+* investment_money
+    - utter_ask_name
+* give_name
+    - utter_provide
+* give_id
+* give_email
+* give_tel
+    - utter_ask_financial_needs
+* deny
+    - utter_goodbye
+
+## interactive_story_11
+* investment_money
+    - utter_ask_name
+* give_name
+    - utter_provide
+* give_id
+* give_email
+* give_tel
+    - utter_ask_financial_needs
+* can_answer_financial_questions
+    - utter_ask_goals
+
+## interactive_story_1
+* investment_money
+    - utter_ask_name
+* give_name{"PERSON": "Miguel Medina"}
+    - utter_provide
+* give_id{"ID": "651006 5864 078"}
+* give_tel{"TELEPHONE": "084 565 7863"}
+* give_email{"EMAIL": "kelly@hotmail.com"}
+    - utter_ask_financial_needs
+* can_answer_financial_questions
+    - utter_ask_goals
+
+## interactive_story_1
+* investment_money
+    - utter_ask_name
+* give_name{"PERSON": "miguel medina"}
+    - utter_provide
+* give_id
+* give_tel
+* give_email{"EMAIL": "angel@gmail.com"}
+    - utter_ask_financial_needs
+* can_answer_financial_questions
+    - utter_ask_goals
+* choose_retirement
+    - utter_ask_time_of_plan
+* choose_plan_of_3_years
+    - utter_ask_for_risk
+* choose_take_sustancial_risk
+    - utter_ask_relation_invest_risk
+* choose_moderate_risk
+    - utter_ask_products
+* choose_equites
+    - utter_ask_risk_class
+* choose_high_capital
+    - utter_propouse_funds
+
+## interactive_story_1
+* investment_money
+    - utter_ask_name
+* give_name
+    - utter_provide
+* give_id
+* give_tel
+* give_email
+    - utter_ask_financial_needs
+* can_answer_financial_questions
+    - utter_ask_goals
+* choose_retirement
+    - utter_ask_time_of_plan
+* choose_plan_of_3_years
+    - utter_ask_for_risk
+* choose_take_sustancial_risk
+    - utter_ask_relation_invest_risk
+* choose_moderate_risk
+    - utter_ask_products
+* choose_equites
+    - utter_ask_risk_class
+* choose_high_capital
+    - utter_propouse_funds
+* choose_two_funds
+    - utter_confirm_credit
+* affirm
+    - utter_ask_lumpo_or_monthly_amount
+* choose_monthly_amount
+    - utter_ask_about_money_amount
+* give_money_amount
+    - utter_ask_for_date
+* give_date
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+* give_branch_code
+    - utter_ask_transaction
+* affirm
+    - utter_warn_email_imformation
+* affirm
+    - utter_finish_sing_up
+* goodbye
+    - utter_goodbye
+
+## interactive_story_1
+* investment_money
+    - utter_ask_name
+* give_name
+    - utter_provide
+* give_id
+* give_tel
+* give_email{"EMAIL": "keli63_29@hotmail.com"}
+    - utter_ask_financial_needs
+* can_answer_financial_questions
+    - utter_ask_goals
+* choose_retirement
+    - utter_ask_time_of_plan
+* choose_plan_of_3_years
+    - utter_ask_for_risk
+* choose_take_sustancial_risk
+    - utter_ask_relation_invest_risk
+* choose_moderate_risk
+    - utter_ask_products
+* choose_equites
+    - utter_ask_risk_class
+    - utter_propouse_funds
+* choose_two_funds
+    - utter_confirm_credit
+* affirm
+    - utter_ask_lumpo_or_monthly_amount
+    - utter_ask_about_money_amount
+* give_money_amount
+    - utter_ask_for_date
+* give_date
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+    - utter_ask_transaction
+* affirm
+    - utter_warn_email_imformation
+* goodbye
+    - utter_goodbye
+
+
+## interactive_story_1
+* ask_for_quick_quote
+   - utter_ask_privacy_policies
+* affirm
+   - utter_quick_quote_products
+
+## interactive_story_1
+* ask_for_quick_quote
+   - utter_ask_privacy_policies
+* deny
+   - utter_goodbye
+
+
+## interactive_story_1
+* greet
+    - utter_greet
+* ask_for_quick_quote
+    - utter_ask_privacy_policies
+* affirm
+    - utter_quick_quote_products
+* choose_contents
+    - utter_confirm_credit_check
+* affirm
+    - utter_ask_address
+* give_address
+    - utter_ask_rent_or_own
+* say_rent
+    - utter_ask_roommates
+* affirm
+    - utter_rommates_amount
+* give_rommates_amount
+    - utter_ask_about_money_amount
+* give_money_amount
+    - utter_ask_property_used
+* choose_residencial_propuse
+    - utter_ask_type_place
+* choose_townhouse
+    - utter_is_part_cluster
+* deny
+    - utter_ask_type_walls
+* choose_brick
+    - utter_ask_type_roof
+* choose_tile
+    - utter_ask_localitation
+* choose_complex
+
+## interative_story_1
+* ask_for_quick_quote
+    - utter_ask_privacy_policies
+* affirm
+    - utter_quick_quote_products
+* choose_contents
+    - utter_confirm_credit_check
+* affirm
+    - utter_ask_address
+* give_address
+    - utter_ask_rent_or_own
+* say_rent
+    - utter_ask_roommates
+* affirm
+    - utter_rommates_amount
+* give_rommates_amount
+    - utter_ask_about_money_amount
+* give_money_amount
+    - utter_ask_property_used
+* choose_residencial_propuse
+    - utter_ask_type_place
+* choose_townhouse
+    - utter_is_part_cluster
+* deny
+    - utter_ask_type_walls
+* choose_brick
+    - utter_ask_type_roof
+* choose_tile
+    - utter_ask_localitation
+* choose_complex
+
+## interactive_story_1
+* ask_for_quick_quote
+    - utter_ask_privacy_policies
+* affirm
+    - utter_quick_quote_products
+* choose_contents
+    - utter_confirm_credit_check
+* affirm
+    - utter_ask_address
+* give_address{"ADDRESS": "30 Joan avenue, La Montagne, Pretoria, 0184"}
+    - utter_ask_rent_or_own
+* say_rent
+    - utter_ask_roommates
+* affirm
+    - utter_rommates_amount
+* give_rommates_amount
+    - utter_ask_about_money_amount
+* give_money_amount
+    - utter_ask_property_used
+* choose_residencial_propuse
+    - utter_ask_type_place
+* choose_townhouse
+    - utter_is_part_cluster
+* deny
+    - utter_ask_type_walls
+* choose_brick
+    - utter_ask_type_roof
+* choose_tile
+    - utter_ask_localitation
+* choose_complex
