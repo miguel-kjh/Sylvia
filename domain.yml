@@ -2,19 +2,34 @@ actions:
 - utter_acquaint_quote
 - utter_ask_about_money_amount
 - utter_ask_address
+- utter_ask_alarms
+- utter_ask_burglar_bars
 - utter_ask_financial_needs
+- utter_ask_for_assumptions
 - utter_ask_for_bank_details
+- utter_ask_for_claims
 - utter_ask_for_date
+- utter_ask_for_deny_insurance
+- utter_ask_for_fraud
+- utter_ask_for_high
 - utter_ask_for_id
+- utter_ask_for_judgement
 - utter_ask_for_licence
+- utter_ask_for_property_insured
 - utter_ask_for_risk
+- utter_ask_for_time_unoccupied
 - utter_ask_for_type_account
+- utter_ask_for_type_walls
+- utter_ask_for_walls
+- utter_ask_gate
 - utter_ask_goals
 - utter_ask_information_contact
 - utter_ask_localitation
 - utter_ask_lumpo_or_monthly_amount
 - utter_ask_name
+- utter_ask_near_of_water
 - utter_ask_privacy_policies
+- utter_ask_proceed
 - utter_ask_products
 - utter_ask_property_used
 - utter_ask_regular_drive
@@ -22,6 +37,8 @@ actions:
 - utter_ask_rent_or_own
 - utter_ask_risk_class
 - utter_ask_roommates
+- utter_ask_security_guard
+- utter_ask_security_house
 - utter_ask_time_of_plan
 - utter_ask_transaction
 - utter_ask_type_insurance
@@ -31,8 +48,11 @@ actions:
 - utter_ask_vehicle_details
 - utter_confirm_credit
 - utter_confirm_credit_check
+- utter_construction_or_renovated
+- utter_finish_quick_quote
 - utter_finish_sing_up
 - utter_give_offer
+- utter_give_quote
 - utter_goodbye
 - utter_greet
 - utter_iamabot
@@ -51,19 +71,27 @@ entities:
 - PERSON
 - TELEPHONE
 intents:
-- give_money_amount
-- choose_tile
+- give_address
+- choose_access_controlled
 - say_rent
-- choose_contents
-- choose_townhouse
-- ask_for_quick_quote
 - deny
 - give_rommates_amount
-- give_address
-- affirm
-- choose_residencial_propuse
+- choose_brick_walls
+- choose_tile
+- give_money_amount
+- choose_security_gate
+- choose_one_month_or_less
+- choose_proceed_with_quote
+- goodbye
 - choose_complex
+- choose_residencial_propuse
+- choose_lower_1.8
+- ask_for_quick_quote
+- affirm
+- choose_contents
+- choose_townhouse
 - choose_brick
+- choose_metal_windows
 - greet
 - can_answer_financial_questions
 - ask_for_quote
@@ -75,7 +103,6 @@ intents:
 - give_account_number
 - choose_moderate_risk
 - give_name_bank
-- goodbye
 - give_date
 - choose_take_sustancial_risk
 - choose_plan_of_3_years
@@ -104,28 +131,75 @@ templates:
   utter_ask_address:
   - text: "Thank you!\nPlease provide the physical address of where the vehicle will\
       \ be kept overnight."
+  utter_ask_alarms:
+  - text: "Is there an alarm installed on the property?\nA) Yes there is\nB) No there\u2019\
+      s not"
+  utter_ask_burglar_bars:
+  - text: "What kind of burglar bars do you have on your windows?\nA) Metal on all\
+      \ walls\nB) Wood on all walls\nC) None\nD) Some have"
   utter_ask_financial_needs:
   - text: "Thank you. We will now do a very brief financial needs  analysis for us\
       \ to understand your needs and how we can best serve you.\nAre you happy to\
       \ answer some questions for me?"
+  utter_ask_for_assumptions:
+  - text: "The contents of the property you\u2019re getting this quote for are currently\
+      \ insured. Full disclosure, I made a few assumptions about you. I could be wrong,\
+      \ so let\u2019s go through them and please go ahead and correct me if you need\
+      \ to!You have never been denied, canceled, had any special conditions imposed\
+      \ or declined at renewal for insurance. You\u2019ve never been convicted of\
+      \ a crime (including fraud). You don\u2019t have a default judgment against\
+      \ you. So, are my assumptions about you correct?\nA) Yes they are\nB) No they\u2019\
+      re not"
   utter_ask_for_bank_details:
   - text: "Sure! Let\u2019s do it!\nPlease provide your banking details:\n1.Bank\n\
       2.Account Name\n3.Account Number\n4.Branch Code"
+  utter_ask_for_claims:
+  - text: "Have you made any claims in the last three years?\nA) Yes I have\nB) No\
+      \ I haven\u2019t"
   utter_ask_for_date:
   - text: "What date would you like for your account to be debited?\nDate options\
       \ are 1st, 15th, 20th and 28th  of every month"
+  utter_ask_for_deny_insurance:
+  - text: "Okay, let\u2019s clear that up. Have you ever been denied insurance?\n\
+      A) Yes I have\nB) No I haven\u2019t"
+  utter_ask_for_fraud:
+  - text: "Have you ever been convicted of a crime, including fraud?\nA) Yes I have\
+      \ \nB) No I haven\u2019t"
+  utter_ask_for_high:
+  - text: "How high is it?\nA) Higher than 1.8 meters\nB) Lower than 1.8 meters"
   utter_ask_for_id:
   - text: "Thank you!\nPlease provide your South African ID number"
+  utter_ask_for_judgement:
+  - text: "Is there a default judgement against you? This means you were accused of\
+      \ something and the judgement went against you because you did nothing about\
+      \ it.\nA) Yes\nB) No"
   utter_ask_for_licence:
   - text: What type of Licence do you have and when did you get it?
+  utter_ask_for_property_insured:
+  - text: "Are the contents of this property currently insured?\nA) Yes they are\n\
+      B) No they\u2019re not"
   utter_ask_for_risk:
   - text: "Thank you\nWhich one of the following statements comes closest to the amount\
       \ of financial risk that you are willing to take when you make investments?\n\
       A. Not willing to take any risks.\nB. Take average risks expecting to earn average\
       \ returns.\nC. Take above average risks expecting to earn above average returns.\n\
       D. Take substantial risks expecting to earn substantial returns."
+  utter_ask_for_time_unoccupied:
+  - text: "How much time, on average, is the property unoccupied every year?\nA) Never\
+      \ unoccupied\nB) On a daily basis\nC) One month or less\nD) Two months\nE) Three\
+      \ months\nF) Four months\xBAnG) Five months\nH) Six months\nI) Seven months\n\
+      J) Eight months\nK) Nine months\nL) Ten months\nM) Eleven months\nN) Twelve\
+      \ months"
   utter_ask_for_type_account:
   - text: What type of account is this?
+  utter_ask_for_type_walls:
+  - text: "What type?\nA) Brick wall\nB) Palisade wall\nC) Precast wall"
+  utter_ask_for_walls:
+  - text: "Is there any boundary wall or fence surrounding the property?\nA) Yes\n\
+      B) No"
+  utter_ask_gate:
+  - text: "How are the outside doors of the property secured?\nA) With a security\
+      \ gate\nB) They are not secured"
   utter_ask_goals:
   - text: "Thank you!!\nWhat is/are the financial goal(s) of your investments? (You\
       \ may choose more than one.) \nA.To get life protection\nB.To beat inflation\n\
@@ -146,6 +220,10 @@ templates:
       \ complete name"
   - text: "No Problem... Shall we get started \U0001F601\nWho am I speaking to?\n\
       Give me you complete name"
+  utter_ask_near_of_water:
+  - text: "Cool, and tell me, is the property within 100m of body water? We don\u2019\
+      t mean your hot tub, we\u2019re talking about the ocean, a river or dam?\nA)\
+      \ Yes\nB) No"
   utter_ask_privacy_policies:
   - text: "Before we get started on our quote, my lawyers tell me that you\u2019ll\
       \ need to accept our FAIS and privacy declarations. You should read these documents\
@@ -153,6 +231,9 @@ templates:
       \ disclose and protect your personal information, as well as give you more info\
       \ on my financial service provider, Liberty Group Limited. So what do you say?\n\
       I accept, don\xB4t accept or read declarations"
+  utter_ask_proceed:
+  - text: "How would you like to proceed?\nA) Proceed with the quote\nB) Get a new\
+      \ quote"
   utter_ask_products:
   - text: "Thank you\nDo you have any product knowledge and/or trading experience\
       \ for the following products?\nBonds\nEquities\nCommodities\nFunds"
@@ -180,6 +261,15 @@ templates:
   utter_ask_roommates:
   - text: "Do you have any roommates who aren\u2019t members of your family?\nA) Yes\
       \ I do\nB) No I don\u2019t"
+  utter_ask_security_guard:
+  - text: "Is there a 24-hour security guard on duty?\nA) Yes there is\nB) No there\u2019\
+      s not"
+  utter_ask_security_house:
+  - text: "Next up, we need to know how you get in and out of your property:\nA) Access\
+      \ controlled - This means people can\u2019t freely enter the premises without\
+      \ signing in or having an access card or remote\nB) Boom gate - This means the\
+      \ property is entered ad exited through a boomed area.\nC) Street Access - This\
+      \ means the property can be accessed from the street.\nSo, which is it?"
   utter_ask_time_of_plan:
   - text: "Thank you!!\nIn considering your financial goal(s), which of the following\
       \ investment time horizons is most suitable for your financial plan or financial\
@@ -205,6 +295,13 @@ templates:
   utter_confirm_credit_check:
   - text: "To get you the lowest premiums, I have to run a credit check on your ID\
       \ number.\nDo you give me a thumbs up?\nA) Yes\nB) No"
+  utter_construction_or_renovated:
+  - text: "By any chance, is the property under construction or being renovated?\n\
+      A) Yes it is\nB) No it\u2019s not"
+  utter_finish_quick_quote:
+  - text: "Perfect, an agent will be getting in touch to finalize your quote and get\
+      \ your banking details in the next few hours\nIs there anything else that I\
+      \ can assist you with?"
   utter_finish_sing_up:
   - text: "Congratulations! You are now signed up!\nYour account will be debited on\
       \ the 28th of every month with the amount of R1269.92.\nIs there anything else\
@@ -215,6 +312,9 @@ templates:
       \ would you like to do?\n1.I accept this quote, sign me up!\n2.Send me a copy\
       \ of the quote via email - I will review it later.\n3.Get a consultant to call\
       \ me."
+  utter_give_quote:
+  - text: "Perfect! Here it is, the moment we\u2019ve been waiting for!\nQuote: R18.28\
+      \ monthly premium\nR500 excess"
   utter_goodbye:
   - text: Bye
   - text: Bye!Have a good day!

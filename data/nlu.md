@@ -21,11 +21,17 @@
 - yes
 - yes
 - yes
+- yes
+- yes
+- yes
+- yes
+- yes
 
 ## intent:ask_for_quick_quote
 - Get a quick quote
 - I need a quick quote, please
 - I want a quick quote
+- get a quick quote
 - get a quick quote
 - get a quick quote
 
@@ -61,18 +67,31 @@
 - ok
 - yes I accept
 
+## intent:choose_access_controlled
+- Access controlled
+- A) access controlled
+- access controlled
+
 ## intent:choose_brick
 - brick
 - A) brick
 - brick
+- brick
+
+## intent:choose_brick_walls
+- brick wall
+- brick
+- brick wall
 
 ## intent:choose_complex
+- complex
 - complex
 
 ## intent:choose_contents
 - contents
 - i choose contents
 - B) Contents
+- contents
 - contents
 
 ## intent:choose_equites
@@ -85,6 +104,18 @@
 - You are investing for high capital growth over the medium to long term
 - four
 - high capital
+
+## intent:choose_lower_1.8
+- Lower than 1.8 meters
+- < 1.8 meters
+- < 1.8
+- lower than 1.8
+- < 1.8
+
+## intent:choose_metal_windows
+- Metal on all windows
+- metal
+- metal on all windows
 
 ## intent:choose_moderate_risk
 - I prefer to invest in a moderate risk portfolio
@@ -108,6 +139,11 @@
 - car,home...
 - Car, Home & Building Insurance
 
+## intent:choose_one_month_or_less
+- One month or less
+- one month
+- one months or less
+
 ## intent:choose_plan_of_3_years
 - three years
 - 3
@@ -120,9 +156,16 @@
 - B
 - 4
 
+## intent:choose_proceed_with_quote
+- Proceed with the quote
+- proceed with this
+- proceed
+- proceed with the quote
+
 ## intent:choose_residencial_propuse
 - residential purpouse
 - residential only
+- residential purposes
 - residential purposes
 
 ## intent:choose_retirement
@@ -133,6 +176,11 @@
 - G.For retirement
 - G
 - G
+
+## intent:choose_security_gate
+- With a security gate
+- security gate
+- security gate
 
 ## intent:choose_take_sustancial_risk
 - Take substantial risks expecting to earn substantial returns.
@@ -159,11 +207,13 @@
 - complex
 - C) Complex
 - tile
+- title
 
 ## intent:choose_townhouse
 - Townhouse
 - normal house
 - A) Townhause
+- townhouse
 - townhouse
 
 ## intent:choose_two_funds
@@ -180,6 +230,15 @@
 - no way
 - not really
 - Nope
+- no it is not
+- no there`s not
+- no
+- no
+- no
+- no i have not
+- nope
+- no
+- no
 
 ## intent:give_account_number
 - 1223334444
@@ -196,6 +255,7 @@
 - [36 Bever Hights, Carltonville, Port Elizabeth](ADDRESS)
 - [36 Bever Hights, Carltonville, Port Elizabeth](ADDRESS)
 - [30 Joan avenue, La Montagne, Pretoria, 0184](ADDRESS)
+- [30 Joan avenue, La Montagne, Pretoria, 0184](ADDRESS), South Africa
 
 ## intent:give_branch_code
 - 198 765
@@ -254,6 +314,7 @@
 - 38439 every month
 - R1000 per month
 - R10000
+- R1000
 
 ## intent:give_name
 - I am [Conor McGregor](PERSON)
@@ -303,6 +364,7 @@
 - one rommates
 - two rommates
 - 3 roommates
+- 2 roommates
 
 ## intent:give_tel
 - [083 123 4567](TELEPHONE)
@@ -342,6 +404,7 @@
 - see you
 - yes, I am
 - bye
+- no, thank you
 
 ## intent:greet
 - hey
@@ -381,6 +444,7 @@
 - rent
 - I rent it
 - i rent it
+- i rent
 
 ## synonym:miguel medina
 - Miguel Medina

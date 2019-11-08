@@ -496,52 +496,11 @@
 * goodbye
     - utter_goodbye
 
-
-## interactive_story_1
-* ask_for_quick_quote
-   - utter_ask_privacy_policies
-* affirm
-   - utter_quick_quote_products
-
 ## interactive_story_1
 * ask_for_quick_quote
    - utter_ask_privacy_policies
 * deny
    - utter_goodbye
-
-
-## interactive_story_1
-* greet
-    - utter_greet
-* ask_for_quick_quote
-    - utter_ask_privacy_policies
-* affirm
-    - utter_quick_quote_products
-* choose_contents
-    - utter_confirm_credit_check
-* affirm
-    - utter_ask_address
-* give_address
-    - utter_ask_rent_or_own
-* say_rent
-    - utter_ask_roommates
-* affirm
-    - utter_rommates_amount
-* give_rommates_amount
-    - utter_ask_about_money_amount
-* give_money_amount
-    - utter_ask_property_used
-* choose_residencial_propuse
-    - utter_ask_type_place
-* choose_townhouse
-    - utter_is_part_cluster
-* deny
-    - utter_ask_type_walls
-* choose_brick
-    - utter_ask_type_roof
-* choose_tile
-    - utter_ask_localitation
-* choose_complex
 
 ## interative_story_1
 * ask_for_quick_quote
@@ -573,6 +532,43 @@
 * choose_tile
     - utter_ask_localitation
 * choose_complex
+    - utter_ask_security_house
+* choose_access_controlled
+    - utter_ask_security_guard
+* affirm
+    - utter_ask_alarms
+* deny
+    - utter_ask_burglar_bars
+* choose_metal_windows
+    - utter_ask_for_walls
+* affirm
+    - utter_ask_for_type_walls
+* choose_brick_walls
+    - utter_ask_for_high
+* choose_lower_1.8
+    - utter_ask_gate
+* choose_security_gate
+    - utter_construction_or_renovated
+* deny
+    - utter_ask_for_time_unoccupied
+* choose_one_month_or_less
+    - utter_ask_near_of_water
+* deny
+    - utter_ask_for_deny_insurance
+* deny
+    - utter_ask_for_property_insured
+* deny
+    - utter_ask_for_fraud
+* deny
+    - utter_ask_for_judgement
+* deny
+    - utter_give_quote
+    - utter_ask_proceed
+* choose_proceed_with_quote
+    - utter_finish_quick_quote
+* deny
+    - utter_goodbye
+
 
 ## interactive_story_1
 * ask_for_quick_quote
@@ -604,3 +600,107 @@
 * choose_tile
     - utter_ask_localitation
 * choose_complex
+        - utter_ask_security_house
+* choose_access_controlled
+    - utter_ask_security_guard
+* affirm
+    - utter_ask_alarms
+* deny
+    - utter_ask_burglar_bars
+* choose_metal_windows
+    - utter_ask_for_walls
+* affirm
+    - utter_ask_for_type_walls
+* choose_brick_walls
+    - utter_ask_for_high
+* choose_lower_1.8
+    - utter_ask_gate
+* choose_security_gate
+    - utter_construction_or_renovated
+* deny
+    - utter_ask_for_time_unoccupied
+* choose_one_month_or_less
+    - utter_ask_near_of_water
+* deny
+    - utter_ask_for_deny_insurance
+* deny
+    - utter_ask_for_property_insured
+* deny
+    - utter_ask_for_fraud
+* deny
+    - utter_ask_for_judgement
+* deny
+    - utter_give_quote
+    - utter_ask_proceed
+* choose_proceed_with_quote
+    - utter_finish_quick_quote
+* deny
+    - utter_goodbye
+## interactive_story_1
+* ask_for_quick_quote
+    - utter_ask_privacy_policies
+* affirm
+    - utter_quick_quote_products
+* choose_contents
+    - utter_confirm_credit_check
+* affirm
+    - utter_ask_address
+* give_address{"ADDRESS": "30 Joan avenue, La Montagne, Pretoria, 0184"}
+    - utter_ask_rent_or_own
+* say_rent
+    - utter_ask_roommates
+* affirm
+    - utter_rommates_amount
+* give_rommates_amount
+    - utter_ask_about_money_amount
+* give_money_amount
+    - utter_ask_property_used
+* choose_residencial_propuse
+    - utter_ask_type_place
+* choose_townhouse
+    - utter_is_part_cluster
+* deny
+    - utter_ask_type_walls
+* choose_brick
+    - utter_ask_type_roof
+* choose_tile
+    - utter_ask_localitation
+* choose_complex
+    - utter_ask_security_house
+* choose_access_controlled
+    - utter_ask_security_guard
+* affirm
+    - utter_ask_alarms
+* deny
+    - utter_ask_burglar_bars
+* choose_metal_windows
+    - utter_ask_for_walls
+* affirm
+    - utter_ask_for_type_walls
+* choose_brick_walls
+    - utter_ask_for_high
+* choose_lower_1.8
+    - utter_ask_gate
+* choose_security_gate
+    - utter_construction_or_renovated
+* deny
+    - utter_ask_for_time_unoccupied
+* choose_one_month_or_less
+    - utter_ask_near_of_water
+* deny
+    - utter_ask_for_assumptions
+* deny
+    - utter_ask_for_deny_insurance
+* deny
+    - utter_ask_for_property_insured
+* deny
+    - utter_ask_for_fraud
+* deny
+    - utter_ask_for_judgement
+* deny
+    - utter_give_quote
+    - utter_ask_proceed
+* choose_proceed_with_quote
+    - utter_finish_quick_quote
+* goodbye
+    - utter_goodbye
