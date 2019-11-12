@@ -35,7 +35,7 @@
     - utter_ask_for_licence
 * give_licence
     - utter_give_offer
-* accept_offer
+* accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
 * give_name_account
@@ -74,7 +74,7 @@
     - utter_ask_for_licence
 * give_licence
     - utter_give_offer
-* accept_offer
+* accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
 * give_name_account
@@ -111,7 +111,7 @@
     - utter_ask_for_licence
 * give_licence
     - utter_give_offer
-* accept_offer
+* accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
 * give_name_account
@@ -149,7 +149,7 @@
     - utter_ask_for_licence
 * give_licence
     - utter_give_offer
-* accept_offer
+* accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
 * give_name_account
@@ -188,7 +188,7 @@
     - utter_ask_for_licence
 * give_licence
     - utter_give_offer
-* accept_offer
+* accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
 * give_name_account
@@ -225,7 +225,7 @@
     - utter_ask_for_licence
 * give_licence
     - utter_give_offer
-* accept_offer
+* accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
 * give_name_account
@@ -262,7 +262,7 @@
     - utter_ask_for_licence
 * give_licence
     - utter_give_offer
-* accept_offer
+* accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
 * give_name_account
@@ -299,45 +299,7 @@
     - utter_ask_for_licence
 * give_licence{"DATE": "Nov 2008"}
     - utter_give_offer
-* accept_offer
-    - utter_ask_for_bank_details
-* give_name_bank
-* give_name_account
-* give_account_number
-* give_branch_code
-    - utter_ask_for_type_account
-* give_type_account
-    - utter_ask_for_date
-* give_date
-    - utter_finish_sing_up
-* goodbye
-    - utter_goodbye
-
-## interactive_story_1
-* greet_and_ask_for_quote
-    - utter_greet
-    - utter_acquaint_quote
-* choose_number_3
-    - utter_ask_name
-* give_name{"PERSON": "Larry Fields"}
-    - utter_nice_meet
-    - utter_ask_type_insurance
-* choose_thrid-party_fire_theft
-    - utter_ask_information_contact
-* give_email{"EMAIL": "larry@hotmail.com"}
-* give_tel{"TELEPHONE": "928 182 777"}
-    - utter_ask_for_id
-* give_id{"ID": "890616 0135 008"}
-    - utter_ask_vehicle_details
-* give_logbook
-    - utter_ask_regular_drive
-* affirm
-    - utter_ask_address
-* give_address{"ADDRESS": "36 Bever Hights, Carltonville, Port Elizabeth"}
-    - utter_ask_for_licence
-* give_licence{"DATE": "Nov 2008"}
-    - utter_give_offer
-* accept_offer
+* accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
 * give_name_account
@@ -363,54 +325,6 @@
 * deny
     - utter_goodbye
 
-## interactive_story_11
-* investment_money
-    - utter_ask_name
-* give_name
-    - utter_provide
-* give_id
-* give_email
-* give_tel
-    - utter_ask_financial_needs
-* can_answer_financial_questions
-    - utter_ask_goals
-
-## interactive_story_1
-* investment_money
-    - utter_ask_name
-* give_name{"PERSON": "Miguel Medina"}
-    - utter_provide
-* give_id{"ID": "651006 5864 078"}
-* give_tel{"TELEPHONE": "084 565 7863"}
-* give_email{"EMAIL": "kelly@hotmail.com"}
-    - utter_ask_financial_needs
-* can_answer_financial_questions
-    - utter_ask_goals
-
-## interactive_story_1
-* investment_money
-    - utter_ask_name
-* give_name{"PERSON": "miguel medina"}
-    - utter_provide
-* give_id
-* give_tel
-* give_email{"EMAIL": "angel@gmail.com"}
-    - utter_ask_financial_needs
-* can_answer_financial_questions
-    - utter_ask_goals
-* choose_retirement
-    - utter_ask_time_of_plan
-* choose_plan_of_3_years
-    - utter_ask_for_risk
-* choose_take_sustancial_risk
-    - utter_ask_relation_invest_risk
-* choose_moderate_risk
-    - utter_ask_products
-* choose_equites
-    - utter_ask_risk_class
-* choose_high_capital
-    - utter_propouse_funds
-
 ## interactive_story_1
 * investment_money
     - utter_ask_name
@@ -420,7 +334,7 @@
 * give_tel
 * give_email
     - utter_ask_financial_needs
-* can_answer_financial_questions
+* affirm
     - utter_ask_goals
 * choose_retirement
     - utter_ask_time_of_plan
@@ -451,9 +365,7 @@
     - utter_ask_transaction
 * affirm
     - utter_warn_email_imformation
-* affirm
-    - utter_finish_sing_up
-* goodbye
+* goodbye OR deny
     - utter_goodbye
 
 ## interactive_story_1
@@ -463,9 +375,9 @@
     - utter_provide
 * give_id
 * give_tel
-* give_email{"EMAIL": "keli63_29@hotmail.com"}
+* give_email
     - utter_ask_financial_needs
-* can_answer_financial_questions
+* affirm
     - utter_ask_goals
 * choose_retirement
     - utter_ask_time_of_plan
@@ -477,6 +389,51 @@
     - utter_ask_products
 * choose_equites
     - utter_ask_risk_class
+* choose_high_capital
+    - utter_propouse_funds
+* choose_two_funds
+    - utter_confirm_credit
+* affirm
+    - utter_ask_lumpo_or_monthly_amount
+* choose_monthly_amount
+    - utter_ask_about_money_amount
+* give_money_amount
+    - utter_ask_for_date
+* give_date
+    - utter_ask_for_bank_details
+* give_name_bank
+* give_name_account
+* give_account_number
+* give_branch_code
+    - utter_ask_transaction
+* affirm
+    - utter_warn_email_imformation
+* goodbye OR deny
+    - utter_goodbye
+
+
+## interactive_story_1
+* investment_money
+    - utter_ask_name
+* give_name
+    - utter_provide
+* give_id
+* give_tel
+* give_email{"EMAIL": "keli63_29@hotmail.com"}
+    - utter_ask_financial_needs
+* affirm
+    - utter_ask_goals
+* choose_retirement
+    - utter_ask_time_of_plan
+* choose_plan_of_3_years
+    - utter_ask_for_risk
+* choose_take_sustancial_risk
+    - utter_ask_relation_invest_risk
+* choose_moderate_risk
+    - utter_ask_products
+* choose_equites
+    - utter_ask_risk_class
+* choose_high_capital
     - utter_propouse_funds
 * choose_two_funds
     - utter_confirm_credit
@@ -493,7 +450,7 @@
     - utter_ask_transaction
 * affirm
     - utter_warn_email_imformation
-* goodbye
+* goodbye OR deny
     - utter_goodbye
 
 ## interactive_story_1
@@ -566,7 +523,7 @@
     - utter_ask_proceed
 * choose_proceed_with_quote
     - utter_finish_quick_quote
-* deny
+* goodbye OR deny
     - utter_goodbye
 
 
@@ -634,8 +591,9 @@
     - utter_ask_proceed
 * choose_proceed_with_quote
     - utter_finish_quick_quote
-* deny
+* goodbye OR deny
     - utter_goodbye
+
 ## interactive_story_1
 * ask_for_quick_quote
     - utter_ask_privacy_policies
@@ -702,5 +660,5 @@
     - utter_ask_proceed
 * choose_proceed_with_quote
     - utter_finish_quick_quote
-* goodbye
+* goodbye OR deny
     - utter_goodbye

@@ -93,7 +93,6 @@ intents:
 - choose_brick
 - choose_metal_windows
 - greet
-- can_answer_financial_questions
 - ask_for_quote
 - give_name_account
 - give_type_account
@@ -350,4 +349,4 @@ templates:
   utter_rommates_amount:
   - text: Nice! Exactly how many roommates do you have?
   utter_warn_email_imformation:
-  - text: Thank you!!,We will forward all the relevant documents to your email address.
+  - text: Thank you!!,We will forward all the relevant documents to your email address.Anything else?

@@ -4,7 +4,6 @@
 - sign me up
 - I accept, sign me up
 - sign me, please
-- I accept
 - ok, sign me up
 
 ## intent:affirm
@@ -13,19 +12,20 @@
 - of course
 - that sounds good
 - correct
-- yes
-- yes
-- yes
-- yes
-- yes
-- yes
-- yes
-- yes
-- yes
-- yes
-- yes
-- yes
-- yes
+- Yes, I am
+- No problem
+- whatever
+- I do not care
+- Ok
+- Yeah
+- Yeah, of course
+- yes, ask me anything
+- Yes I am
+- yes, any problem
+- yes, I am
+- yes I do
+- ok
+- yes I accept
 
 ## intent:ask_for_quick_quote
 - Get a quick quote
@@ -50,22 +50,6 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
-
-## intent:can_answer_financial_questions
-- Yes, I am
-- No problem
-- whatever
-- I do not care
-- Ok
-- Yeah
-- Yeah, of course
-- yes, ask me anything
-- Yes I am
-- yes, any problem
-- yes, I am
-- yes I do
-- ok
-- yes I accept
 
 ## intent:choose_access_controlled
 - Access controlled
@@ -220,7 +204,8 @@
 - I would like to spread it into two funds
 - both
 - either of the two
-- I would like to spread it into two funds
+- I would like to spread it into two funds.
+- two funds, please
 
 ## intent:deny
 - no
