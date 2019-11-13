@@ -15,6 +15,7 @@ actions:
 - utter_ask_for_id
 - utter_ask_for_judgement
 - utter_ask_for_licence
+- utter_ask_for_need
 - utter_ask_for_property_insured
 - utter_ask_for_risk
 - utter_ask_for_time_unoccupied
@@ -23,11 +24,14 @@ actions:
 - utter_ask_for_walls
 - utter_ask_gate
 - utter_ask_goals
+- utter_ask_id_sing_up
 - utter_ask_information_contact
 - utter_ask_localitation
 - utter_ask_lumpo_or_monthly_amount
 - utter_ask_name
+- utter_ask_name_for_sing_up
 - utter_ask_near_of_water
+- utter_ask_otp_sing_up
 - utter_ask_privacy_policies
 - utter_ask_proceed
 - utter_ask_products
@@ -39,6 +43,7 @@ actions:
 - utter_ask_roommates
 - utter_ask_security_guard
 - utter_ask_security_house
+- utter_ask_tel_sing_up
 - utter_ask_time_of_plan
 - utter_ask_transaction
 - utter_ask_type_insurance
@@ -66,11 +71,19 @@ actions:
 entities:
 - ADDRESS
 - DATE
+- DAY_MONTH
 - EMAIL
 - ID
 - PERSON
 - TELEPHONE
 intents:
+- give_tel
+- ask_for_quick_quote
+- give_id
+- give_name
+- choose_contents
+- give_otp
+- affirm
 - give_address
 - choose_access_controlled
 - say_rent
@@ -86,9 +99,6 @@ intents:
 - choose_complex
 - choose_residencial_propuse
 - choose_lower_1.8
-- ask_for_quick_quote
-- affirm
-- choose_contents
 - choose_townhouse
 - choose_brick
 - choose_metal_windows
@@ -98,7 +108,6 @@ intents:
 - give_type_account
 - choose_two_funds
 - choose_equites
-- give_id
 - give_account_number
 - choose_moderate_risk
 - give_name_bank
@@ -106,9 +115,7 @@ intents:
 - choose_take_sustancial_risk
 - choose_plan_of_3_years
 - investment_money
-- give_name
 - choose_retirement
-- give_tel
 - give_email
 - choose_number_3
 - give_logbook
@@ -120,6 +127,13 @@ intents:
 - accept_offer
 - choose_high_capital
 - choose_monthly_amount
+slots:
+  DAY_MONTH:
+    initial_value: ''
+    type: text
+  PERSON:
+    initial_value: ''
+    type: text
 templates:
   utter_acquaint_quote:
   - text: "I\u2019m here to assist you. What type of Insurance are you looking for?\n\
@@ -174,6 +188,8 @@ templates:
       \ it.\nA) Yes\nB) No"
   utter_ask_for_licence:
   - text: What type of Licence do you have and when did you get it?
+  utter_ask_for_need:
+  - text: Nice to meet you {PERSON}. What can I do for you today?
   utter_ask_for_property_insured:
   - text: "Are the contents of this property currently insured?\nA) Yes they are\n\
       B) No they\u2019re not"
@@ -204,6 +220,9 @@ templates:
       \ may choose more than one.) \nA.To get life protection\nB.To beat inflation\n\
       C.To generate steady income D. To meet personal goals such as wedding, vacation,\
       \ etc.\nE.For children\u2019s education\nF.For home purchase\nG.For retirement"
+  utter_ask_id_sing_up:
+  - text: "Perfect, verified!\nOur products are currently only available to SA ID\
+      \ number holders, so please enter your ID number."
   utter_ask_information_contact:
   - text: "Good choice! Please enter the following:\n1. Email address \n2. Contact\
       \ number"
@@ -219,10 +238,15 @@ templates:
       \ complete name"
   - text: "No Problem... Shall we get started \U0001F601\nWho am I speaking to?\n\
       Give me you complete name"
+  utter_ask_name_for_sing_up:
+  - text: "Great, thanks.\nI can\u2019t wait for you to see how easy it is to get\
+      \ a quote and take out a policy with our product.\nPlease tell me your name?"
   utter_ask_near_of_water:
   - text: "Cool, and tell me, is the property within 100m of body water? We don\u2019\
       t mean your hot tub, we\u2019re talking about the ocean, a river or dam?\nA)\
       \ Yes\nB) No"
+  utter_ask_otp_sing_up:
+  - text: Thanks. Now enter that OTP.
   utter_ask_privacy_policies:
   - text: "Before we get started on our quote, my lawyers tell me that you\u2019ll\
       \ need to accept our FAIS and privacy declarations. You should read these documents\
@@ -269,6 +293,9 @@ templates:
       \ signing in or having an access card or remote\nB) Boom gate - This means the\
       \ property is entered ad exited through a boomed area.\nC) Street Access - This\
       \ means the property can be accessed from the street.\nSo, which is it?"
+  utter_ask_tel_sing_up:
+  - text: First up, please enter your phone number so I can sign you in or create
+      a new account.
   utter_ask_time_of_plan:
   - text: "Thank you!!\nIn considering your financial goal(s), which of the following\
       \ investment time horizons is most suitable for your financial plan or financial\
@@ -303,8 +330,8 @@ templates:
       \ can assist you with?"
   utter_finish_sing_up:
   - text: "Congratulations! You are now signed up!\nYour account will be debited on\
-      \ the 28th of every month with the amount of R1269.92.\nIs there anything else\
-      \ that I can help you with?"
+      \ the {DAY_MONTH} of every month with the amount of R1269.92.\nIs there anything\
+      \ else that I can help you with?"
   utter_give_offer:
   - text: "This is what I can offer you...Third-party, fire and theft car insurance\
       \ for a premium ofR1269.92 per month with an excess of R6375.(Quote Ref #C4559)What\
@@ -331,9 +358,9 @@ templates:
   - text: "Very nice! Now tell me, is it part of a cluster?\nA) Yes it is\nB) Nope,\
       \ it\u2019s not"
   utter_nice_meet:
-  - text: Nice to meet you!
-  - text: It's nice to meet you.
-  - text: Pleased to meet you.
+  - text: Nice to meet you {PERSON}!
+  - text: It's nice to meet you {PERSON}.
+  - text: Pleased to meet you {PERSON}.
   utter_propouse_funds:
   - text: "Thank you\nWe have calculated that you are a medium risk investor. I propose\
       \ the following funds for you interest\nDSP Credit Risk Fund\nUTI-ST Income\
@@ -349,4 +376,5 @@ templates:
   utter_rommates_amount:
   - text: Nice! Exactly how many roommates do you have?
   utter_warn_email_imformation:
-  - text: Thank you!!,We will forward all the relevant documents to your email address.Anything else?
+  - text: Thank you!!,We will forward all the relevant documents to your email address.Anything
+      else?

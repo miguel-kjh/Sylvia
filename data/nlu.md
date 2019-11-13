@@ -26,6 +26,7 @@
 - yes I do
 - ok
 - yes I accept
+- yes
 
 ## intent:ask_for_quick_quote
 - Get a quick quote
@@ -34,6 +35,7 @@
 - get a quick quote
 - get a quick quote
 - get a quick quote
+- i need a quick quote
 
 ## intent:ask_for_quote
 - I need a quote,please
@@ -77,6 +79,7 @@
 - B) Contents
 - contents
 - contents
+- Contents
 
 ## intent:choose_equites
 - Equities
@@ -250,19 +253,18 @@
 - 198 765
 
 ## intent:give_date
-- 1st
-- 28th
-- 15th
-- 20th
-- 28th
-- 1 st
-- 28 th
-- 15 th
-- 20 th
-- 28 th
-- 28 th
-- 28 th
-- 1st
+- [1st](DAY_MONTH)
+- [28th](DAY_MONTH)
+- [15th](DAY_MONTH)
+- [20th](DAY_MONTH)
+- [28th](DAY_MONTH)
+- [1 st](DAY_MONTH)
+- [28 th](DAY_MONTH)
+- [15 th](DAY_MONTH)
+- [20 th](DAY_MONTH)
+- [28 th](DAY_MONTH)
+- [28 th](DAY_MONTH)
+- [28 th](DAY_MONTH)
 
 ## intent:give_email
 - 1.[GBarnes@gmail.com](EMAIL)
@@ -279,6 +281,7 @@
 - [384933 3334 434](ID)
 - [890616 0135 008](ID)
 - [651006 5864 078](ID)
+- [890616 0135 008](ID)
 
 ## intent:give_licence
 - RSA Drivers Licence, Code 8, I got it in [Nov 2008](DATE)
@@ -312,6 +315,7 @@
 - [Larry Fields](PERSON)
 - This is [Kelly Trump](PERSON)
 - [Miguel Medina](PERSON:miguel medina)
+- [Miguel Medina](PERSON:miguel medina)
 
 ## intent:give_name_account
 - B.Gills
@@ -342,6 +346,13 @@
 - NedBank
 - FNB
 
+## intent:give_otp
+- 1728
+- 9384
+- 9387
+- 8475
+- 4444
+
 ## intent:give_rommates_amount
 - 2 rommates
 - 5
@@ -357,6 +368,7 @@
 - [834 123 4587](TELEPHONE)
 - [928 182 7773](TELEPHONE)
 - [084 565 7864](TELEPHONE)
+- [083 123 4567](TELEPHONE)
 
 ## intent:give_type_account
 - Cheque Account
@@ -451,6 +463,9 @@
 
 ## regex:give_name_account
 - [A-Z]\.[A-Z][a-z]+$
+
+## regex:give_otp
+- d{4}$
 
 ## regex:give_tel
 - (\d{3}\s*){2}\d{4}$
