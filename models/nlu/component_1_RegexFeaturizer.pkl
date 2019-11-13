@@ -1,0 +1,30 @@
+[
+    {
+        "name": "give_account_number",
+        "pattern": "\\d{10}$"
+    },
+    {
+        "name": "give_address",
+        "pattern": "\\d*([A-Za-z ]+,){1,2}[A-Za-z ]*\\d*"
+    },
+    {
+        "name": "give_branch_code",
+        "pattern": "\\d{3}\\s\\d{3}$"
+    },
+    {
+        "name": "give_email",
+        "pattern": "[A-Za-z0-9\\.\\+_-]+@[A-Za-z0-9\\._-]+\\.[a-zA-Z]+$"
+    },
+    {
+        "name": "give_id",
+        "pattern": "\\d{6}\\s\\d{4}\\s\\d{3}$"
+    },
+    {
+        "name": "give_name_account",
+        "pattern": "[A-Z]\\.[A-Z][a-z]+$"
+    },
+    {
+        "name": "give_tel",
+        "pattern": "(\\d{3}\\s*){2}\\d{4}$"
+    }
+]
