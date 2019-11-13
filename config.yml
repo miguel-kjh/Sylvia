@@ -8,5 +8,7 @@ pipeline: pretrained_embeddings_spacy
 policies:
   - name: AugmentedMemoizationPolicy
   - name: KerasPolicy
+    epochs: 110
+    max_history: 10
   - name: MappingPolicy
 

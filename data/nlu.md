@@ -36,6 +36,8 @@
 - get a quick quote
 - get a quick quote
 - i need a quick quote
+- I need a new quick quote
+- i need a new quick quote
 
 ## intent:ask_for_quote
 - I need a quote,please
@@ -44,8 +46,7 @@
 - Can you help me to choose a quote?
 - I need a quote
 - i need a quote
-- I need a new quick quote
-- i need a new quick quote
+- i need a quote,please
 
 ## intent:bot_challenge
 - are you a bot?
