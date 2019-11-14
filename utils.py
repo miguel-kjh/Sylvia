@@ -1,3 +1,21 @@
 conversension_car = {
-    ""
+    "greet": ["hi", "hello"],
+    "ask_for_quote": ["i need a quote, please"],
+    "choose_number_3": ["Car, Home & Building Insurance"],
+    "give_name": ["Barney Gills"],
+    "choose_thrid-party_fire_theft":["Third-party, fire and theft car insurance"],
+    "give_email":["Barney@gmail.com"],
+    "give_tel":["083 123 4567"],
+    "give_id":["890616 0135 008"],
+    "give_logbook":["Uploading file"],
+    "affirm":["yes"],
+    "give_address":["36 Bever Hights, Carltonville, Port Elizabeth"],
+    "accept_offer":["I Accept this quote, sign me up!"],
+    "give_name_bank":["Nedbank"],
+    "give_name_account":["B.Gills"],
+    "give_account_number":["1223334444"],
+    "give_branch_code":["198 765"],
+    "give_type_account":["Cheque Account"],
+    "give_date":["28th"],
+    "goodbye":["No, that’s it. Thanks! Bye"]
 }
