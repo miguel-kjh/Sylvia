@@ -73,6 +73,7 @@
 ## intent:choose_complex
 - complex
 - complex
+- Complex
 
 ## intent:choose_contents
 - contents
@@ -228,6 +229,7 @@
 - nope
 - no
 - no
+- Nope, it’s not
 
 ## intent:give_account_number
 - 1223334444
@@ -304,6 +306,7 @@
 - R1000 per month
 - R10000
 - R1000
+- R100,000.00
 
 ## intent:give_name
 - I am [Conor McGregor](PERSON)
