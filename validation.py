@@ -1,4 +1,3 @@
-from rasa_nlu.model import Metadata, Interpreter
 import matplotlib.pyplot as plt
 from utils import *
 import numpy as np
@@ -31,6 +30,7 @@ def validationConvesations(data:dict, name:str):
             print("Label: ", conv,  "Awnser:", awnser['intent']['name'])
             fail += 1
             y1.append(0.0)
+            
     print("----------------------------")
     print("mean:", np.mean(y1))
     print("accuracy:", succes*100/(succes+fail))
