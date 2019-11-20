@@ -21,15 +21,18 @@ def validationConvesations(data:dict, name:str):
     fail = 0
     print("Fails", name)
     for conv in data.keys(): 
-        awnser = connection(data[conv][0])
+        list_values = []
         x1.append(conv)
-        if re.sub(r'-\d','',conv) == awnser['intent']['name']:
-            succes += 1
-            y1.append(awnser['intent']['confidence'])
-        else:
-            print("Label: ", conv,  "Awnser:", awnser['intent']['name'])
-            fail += 1
-            y1.append(0.0)
+        for example in data[conv]:
+            awnser = connection(example)
+            if re.sub(r'-\d','',conv) == awnser['intent']['name']:
+                succes += 1
+                list_values.append(awnser['intent']['confidence'])
+            else:
+                print("Label: ", conv,  "Awnser:", awnser['intent']['name'], "with", example)
+                fail += 1
+                list_values.append(0.0)
+        y1.append(np.mean(list_values))
             
     print("----------------------------")
     print("mean:", np.mean(y1))

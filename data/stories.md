@@ -38,7 +38,7 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
-* give_name_account
+* give_name_account OR give_name
 * give_account_number
 * give_branch_code
     - utter_ask_for_type_account
@@ -77,7 +77,7 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
-* give_name_account
+* give_name_account OR give_name
 * give_account_number
 * give_branch_code
     - utter_ask_for_type_account
@@ -114,7 +114,7 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
-* give_name_account
+* give_name_account OR give_name
 * give_account_number
 * give_branch_code
     - utter_ask_for_type_account
@@ -152,7 +152,7 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
-* give_name_account
+* give_name_account OR give_name
 * give_account_number
 * give_branch_code
     - utter_ask_for_type_account
@@ -191,7 +191,7 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
-* give_name_account
+* give_name_account OR give_name
 * give_account_number
 * give_branch_code
     - utter_ask_for_type_account
@@ -228,7 +228,7 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
-* give_name_account
+* give_name_account OR give_name
 * give_account_number
 * give_branch_code
     - utter_ask_for_type_account
@@ -265,7 +265,7 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
-* give_name_account
+* give_name_account OR give_name
 * give_account_number
 * give_branch_code
     - utter_ask_for_type_account
@@ -302,7 +302,7 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
-* give_name_account
+* give_name_account OR give_name
 * give_account_number
 * give_branch_code
     - utter_ask_for_type_account
@@ -359,7 +359,7 @@
 * give_date
     - utter_ask_for_bank_details
 * give_name_bank
-* give_name_account
+* give_name_account OR give_name
 * give_account_number
 * give_branch_code
     - utter_ask_transaction
@@ -402,7 +402,7 @@
 * give_date
     - utter_ask_for_bank_details
 * give_name_bank
-* give_name_account
+* give_name_account OR give_name
 * give_account_number
 * give_branch_code
     - utter_ask_transaction
@@ -445,7 +445,7 @@
 * give_date
     - utter_ask_for_bank_details
 * give_name_bank
-* give_name_account
+* give_name_account OR give_name
 * give_account_number
     - utter_ask_transaction
 * affirm

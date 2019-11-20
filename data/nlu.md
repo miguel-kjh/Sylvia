@@ -72,8 +72,9 @@
 
 ## intent:choose_complex
 - complex
-- complex
+- My house is located in a residential complex
 - Complex
+- I live in a residential complex
 
 ## intent:choose_contents
 - contents
@@ -92,7 +93,9 @@
 ## intent:choose_high_capital
 - You are investing for high capital growth over the medium to long term
 - four
+- 4
 - high capital
+- I choose high capital
 
 ## intent:choose_lower_1.8
 - Lower than 1.8 meters
@@ -117,6 +120,8 @@
 ## intent:choose_monthly_amount
 - Monthly amount
 - monthly
+- I prefect invest a monthly amount
+- A monthly amount is better
 
 ## intent:choose_number_3
 - 3.Car, Home & Building Insurance
@@ -168,8 +173,9 @@
 
 ## intent:choose_security_gate
 - With a security gate
+- we are safe thanks to a security door
 - security gate
-- security gate
+- security door
 
 ## intent:choose_take_sustancial_risk
 - Take substantial risks expecting to earn substantial returns.
@@ -285,6 +291,11 @@
 - [890616 0135 008](ID)
 - [651006 5864 078](ID)
 - [890616 0135 008](ID)
+- [8906160135008](ID)
+- [3849333334434](ID)
+- [8906160135008](ID)
+- [6510065864078](ID)
+- [8906160135008](ID)
 
 ## intent:give_licence
 - RSA Drivers Licence, Code 8, I got it in [Nov 2008](DATE)
@@ -418,7 +429,7 @@
 - hello
 - hi
 - hi
-- hello
+- hello!
 
 ## intent:greet_and_ask_for_quote
 - Hi.I need a quote,please
@@ -446,6 +457,8 @@
 - I rent it
 - i rent it
 - i rent
+- I'm renting
+- live for rent
 
 ## synonym:miguel medina
 - Miguel Medina
@@ -463,7 +476,7 @@
 - [A-Za-z0-9\.\+_-]+@[A-Za-z0-9\._-]+\.[a-zA-Z]+$
 
 ## regex:give_id
-- \d{6}\s\d{4}\s\d{3}$
+- (\d{13}|\d{6}\s\d{4}\s\d{3})$
 
 ## regex:give_name_account
 - [A-Z]\.[A-Z][a-z]+$
