@@ -3,6 +3,9 @@
 * greet
   - utter_greet
 
+## fallback
+  - utter_default
+
 ## say goodbye
 * goodbye
   - utter_goodbye

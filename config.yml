@@ -1,16 +1,8 @@
-# Configuration for Rasa NLU.
-# https://rasa.com/docs/rasa/nlu/components/
-#en_default -> ubuntu
-#en -> trabajo
 language: en
 pipeline: pretrained_embeddings_spacy
-
-# Configuration for Rasa Core.
-# https://rasa.com/docs/rasa/core/policies/
 policies:
-  - name: AugmentedMemoizationPolicy
-  - name: KerasPolicy
-    epochs: 90
-    max_history: 15
-  - name: MappingPolicy
-
+- name: AugmentedMemoizationPolicy
+- name: KerasPolicy
+  epochs: 90
+  max_history: 15
+- name: MappingPolicy
