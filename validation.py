@@ -3,6 +3,8 @@ from utils import *
 import numpy as np
 import requests
 import re
+import seaborn as sn
+import pandas as pd
 
 def connection(mess) -> dict:
     data = {
@@ -50,6 +52,21 @@ def validationConvesations(data:dict, name:str):
 
 
 if __name__ == "__main__":    
-    validationConvesations(conversension_car, "Car_Home")
-    validationConvesations(conversension_id, "inv")
-    validationConvesations(conversension_quick_quote, "quick_quote")
+    #validationConvesations(conversension_car, "Car_Home")
+    #validationConvesations(conversension_id, "inv")
+    #validationConvesations(conversension_quick_quote, "quick_quote")
+    results = [{} for i in target_intent.keys()]
+    for index in range(len(target_intent.keys())):
+        for i in target_intent.keys():
+            results[index][i] = 0.0 
+    for index,i in enumerate(target_intent.keys()):
+        awnser = connection(target_intent[i])
+        for j in awnser["intent_ranking"]:
+            results[index][j['name']] = j['confidence']
+    array = []
+    for i in range(len(results)):
+        array.append(list(results[i].values()))
+    df_cm = pd.DataFrame(array, range(len(array)),range(len(array)))
+    sn.set(font_scale=1.4)#for label size
+    sn.heatmap(df_cm,annot=True)
+    plt.show()

@@ -13,7 +13,7 @@ digraph  {
 "-46" [class=ellipsis, label="..."];
 45 [class="", fontsize=12, label=utter_ask_privacy_policies];
 "-55" [class=ellipsis, label="..."];
-54 [class="active dashed", fontsize=12, label=utter_default];
+54 [class="active dashed", fontsize=12, label=action_default_fallback];
 56 [class=intent, fillcolor=lightblue, label="/greet", shape=rect, style=filled];
 57 [class=intent, fillcolor=lightblue, label="/greet_and_ask_for_quote", shape=rect, style=filled];
 58 [class=intent, fillcolor=lightblue, label="/goodbye", shape=rect, style=filled];
@@ -21,8 +21,8 @@ digraph  {
 60 [class=intent, fillcolor=lightblue, label="/ask_for_quote", shape=rect, style=filled];
 61 [class=intent, fillcolor=lightblue, label="/investment_money", shape=rect, style=filled];
 62 [class=intent, fillcolor=lightblue, label="/ask_for_quick_quote", shape=rect, style=filled];
-63 [class="intent active", fillcolor=lightblue, label="i want a quote, pls", shape=rect, style=filled];
-64 [class="intent active", fillcolor=lightblue, label="Can you help me to choose a quote?", shape=rect, style=filled];
+63 [class="intent active", fillcolor=lightblue, label="i want a quote,pls", shape=rect, style=filled];
+64 [class="intent active", fillcolor=lightblue, label="I need a quick quote, please", shape=rect, style=filled];
 0 -> "-1"  [class="", key=NONE, label=""];
 0 -> 56  [class="", key=0];
 0 -> 57  [class="", key=0];

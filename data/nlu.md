@@ -45,8 +45,8 @@
 - Could I request a quote?
 - Can you help me to choose a quote?
 - I need a quote
-- i need a quote
 - i need a quote,please
+- i want a quote,pls
 
 ## intent:bot_challenge
 - are you a bot?
