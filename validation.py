@@ -39,10 +39,10 @@ def validationConvesations(data:dict, name:str):
     print("----------------------------")
     print("mean:", np.mean(y1))
     print("accuracy:", succes*100/(succes+fail))
-    plt.bar(np.arange(2),[succes,fail])
-    plt.xticks(np.arange(2), ('Succes','Fail'))
-    plt.savefig('graph/bar_'+ name +'.png')
-    plt.close()
+    df = pd.DataFrame({'y': [succes,fail]},
+                   index=['success', 'fail'])
+    plot = df.plot.pie(y='y', figsize=(5, 5))
+    print(plot)
 
     plt.plot(x1,y1,marker='o', linestyle='--')
     plt.ylim(0,1)
@@ -62,7 +62,7 @@ if __name__ == "__main__":
     for index,i in enumerate(target_intent.keys()):
         awnser = connection(target_intent[i])
         for j in awnser["intent_ranking"]:
-            results[index][j['name']] = j['confidence']
+            results[index][j['name']] = round(j['confidence'],2)
     array = []
     for i in range(len(results)):
         array.append(list(results[i].values()))
