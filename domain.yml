@@ -69,6 +69,7 @@ actions:
 - utter_rommates_amount
 - utter_warn_email_imformation
 - utter_default
+- utter_ask_direction
 entities:
 - ADDRESS
 - DATE
@@ -140,8 +141,10 @@ templates:
   - text: "I\u2019m here to assist you. What type of Insurance are you looking for?\n\
       1. Car Insurance\n2. Health Insurance\n3. Car, Home & Building Insurance\nWhat\
       \ will it be?"
+  - text: "Okay, what kind of insurance do you need?\n1. Car Insurance\n2. Health Insurance\n3. Car, Home & Building Insurance\n"
   utter_ask_about_money_amount:
   - text: What is the monthly premium that you would like to invest?
+  - text: "What is the monthly premium you would like to invest?"
   utter_ask_address:
   - text: "Thank you!\nPlease provide the physical address of where the vehicle will\
       \ be kept overnight."
@@ -381,3 +384,5 @@ templates:
       else?
   utter_default:
    - text: "Sorry, I don´t understand, Could you repeat?"
+  utter_ask_direction:
+  - text: "Cool, thanks. Now I’ll need to know the address of the property where your contents are housed."

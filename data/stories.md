@@ -479,7 +479,7 @@
 * choose_contents
     - utter_confirm_credit_check
 * affirm
-    - utter_ask_address
+    - utter_ask_direction
 * give_address
     - utter_ask_rent_or_own
 * say_rent
@@ -555,7 +555,7 @@
 * choose_contents
     - utter_confirm_credit_check
 * affirm
-    - utter_ask_address
+    - utter_ask_direction
 * give_address
     - utter_ask_rent_or_own
 * say_rent
@@ -631,7 +631,7 @@
 * choose_contents
     - utter_confirm_credit_check
 * affirm
-    - utter_ask_address
+    - utter_ask_direction
 * give_address
     - utter_ask_rent_or_own
 * say_rent
@@ -706,7 +706,7 @@
 * choose_contents
     - utter_confirm_credit_check
 * affirm
-    - utter_ask_address
+    - utter_ask_direction
 * give_address
     - utter_ask_rent_or_own
 * say_rent
@@ -784,7 +784,7 @@
 * choose_contents
     - utter_confirm_credit_check
 * affirm
-    - utter_ask_address
+    - utter_ask_direction
 * give_address{"ADDRESS": "30 Joan avenue, La Montagne, Pretoria, 0184"}
     - utter_ask_rent_or_own
 * say_rent

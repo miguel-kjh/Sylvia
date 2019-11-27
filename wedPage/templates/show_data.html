@@ -31,13 +31,49 @@
             </li>
         </ul>
     </nav>
-    <div class="container">
-        <div id="pie-chart" ></div>
+    <div class="row">
+        <div class="container col-sm">
+            <table class="table table-bordered tp">
+                <thead>
+                    <tr>
+                    <th>Intension</th>
+                    <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody id="dataBody"></tbody>
+            </table>
+            <div></div>
+            <table class="table table-bordered dataTables">
+                <thead>
+                    <tr>
+                        <th>object</th>
+                        <th>value</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                mean
+                            </td>
+                            <td id="mean">{{mean}}</td>
+                        </tr>
+                        <tr>
+                            <td>&sigma;</td>
+                            <td id="std">{{std}}</td>
+                        </tr>
+                    </tbody>
+            </table>
+        </div>
+        <div class="col-sm">
+            <div class="container">
+                <div id="pie-chart" ></div>
+            </div>
+        </div>
     </div>
     <div class="container graph_information">
-            <div id="graph"></div>
+        <div id="graph"></div>
     </div>
-    <script>
+    <script type="text/javascript">
         $(document).ready(function () {
             create_plot("graph",'Accuracy', get_data_plot({{data}}),
             Math.max.apply(null,{{data}}), Math.min.apply(null,{{data}}));
@@ -45,6 +81,12 @@
                 {label:"Success", value: {{success | safe}}},
                 {label:"Fail", value: {{fail | safe}}}, 
             ]);
+            for (let index = 0; index < {{data}}.length; index++) {
+                const elementData = {{data}}[index];
+                const intention = {{names | safe}}[index];
+                $("#dataBody").append("<tr><td>"+ intention + "</td><td>" + elementData + "</td></tr>");
+            }
+            $(".tp").hide();
         });
         function get_data_plot(data) {
             // This function generate a vector data for morris.js can read it

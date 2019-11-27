@@ -2,9 +2,9 @@ import re
 import numpy as np
 import sqlite3
 import requests
+from typing import *
 
-
-def connection(mess) -> dict:
+def connection(mess:str) -> dict:
     data = {
         "message_id": "b2831e73-1407-4ba0-a861-0f30a42a42a2a5a",
         "text": mess,
@@ -19,16 +19,22 @@ def sql_insert(con, entities, nameTable):
     cursorObj.execute('INSERT INTO '+ nameTable +'(name, data) VALUES(?, ?)', entities)
     con.commit()
 
+def sql_update_rate_null(con, row):
+    cursorObj = con.cursor()
+    cursorObj.execute('UPDATE rate set fail=null, success=NULL where conversation="'+row+'";')
+    con.commit()
+
 def sql_delete_table(name:str):
     con = sqlite3.connect('dataBase.db')
     cursorObj = con.cursor()
+    sql_update_rate_null(con,name)
     cursorObj.execute("DELETE FROM "+name+";")
     con.commit()
     con.close()
 
 def sql_insert_rate(con,fail,success,name):
     cursorObj = con.cursor()
-    cursorObj.execute('INSERT INTO rate(conversation, fail, success) VALUES(?, ?, ?)', (name,fail,success))
+    cursorObj.execute('UPDATE rate set fail=?, success=? where conversation="'+name+'";', (fail,success))
     con.commit()
 
 def databaseRequest(name:str, conversension: dict) -> tuple:
@@ -83,6 +89,7 @@ def validationConversations(data:dict) -> dict:
                 succes += 1
                 list_values.append(round(awnser['intent']['confidence'],2))
             else:
+                print(awnser)
                 print("Label: ", conv,  "Awnser:", awnser['intent']['name'], "with", example)
                 fail += 1
                 list_values.append(0.0)

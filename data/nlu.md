@@ -33,11 +33,12 @@
 - I need a quick quote, please
 - I want a quick quote
 - get a quick quote
-- get a quick quote
-- get a quick quote
 - i need a quick quote
-- I need a new quick quote
 - i need a new quick quote
+- I need a budget quickly
+- Could you offer me a quick quote?
+- I need a budget as quickly as possible
+- please give me a quick quote
 
 ## intent:ask_for_quote
 - I need a quote,please
@@ -47,6 +48,8 @@
 - I need a quote
 - i need a quote,please
 - i want a quote,pls
+- I want a normal budget
+- What budget do they have?
 
 ## intent:bot_challenge
 - are you a bot?
@@ -75,6 +78,8 @@
 - My house is located in a residential complex
 - Complex
 - I live in a residential complex
+- complex
+- C) Complex
 
 ## intent:choose_contents
 - contents
@@ -199,8 +204,6 @@
 ## intent:choose_tile
 - tile
 - A) title
-- complex
-- C) Complex
 - tile
 - title
 
@@ -402,7 +405,6 @@
 - A Peer-To-Peer Lending Account
 - Cheque Account
 - cheque account
-- Monthly amount
 
 ## intent:goodbye
 - bye
@@ -451,6 +453,7 @@
 - hi, I want to investment my money today
 - Hello, i want to investment my money
 - I want to investment my money today
+- I want to do invest?
 
 ## intent:say_rent
 - rent
