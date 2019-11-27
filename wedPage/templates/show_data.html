@@ -31,19 +31,20 @@
             </li>
         </ul>
     </nav>
-    <p>
-        {{ data }}
-    </p>
+    <div class="container">
+        <div id="pie-chart" ></div>
+    </div>
     <div class="container graph_information">
             <div id="graph"></div>
     </div>
     <script>
         $(document).ready(function () {
-            $(".information").hide();
             create_plot("graph",'Accuracy', get_data_plot({{data}}),
             Math.max.apply(null,{{data}}), Math.min.apply(null,{{data}}));
-            $(".information").show();
-            $(".waiting").hide();
+            create_donut("pie-chart", [
+                {label:"Success", value: {{success | safe}}},
+                {label:"Fail", value: {{fail | safe}}}, 
+            ]);
         });
         function get_data_plot(data) {
             // This function generate a vector data for morris.js can read it
@@ -81,6 +82,14 @@
                 ymin:min
             }); 
         }
+
+        function create_donut(ele,json_data) {
+            Morris.Donut({
+                element: ele,
+                data: json_data
+            });
+        }
+
     </script>    
   </body>
 </html>

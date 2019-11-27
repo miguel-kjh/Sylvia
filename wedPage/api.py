@@ -1,6 +1,8 @@
 import re
 import numpy as np
 import sqlite3
+import requests
+
 
 def connection(mess) -> dict:
     data = {
@@ -17,19 +19,20 @@ def sql_insert(con, entities, nameTable):
     cursorObj.execute('INSERT INTO '+ nameTable +'(name, data) VALUES(?, ?)', entities)
     con.commit()
 
-def sql_delete_table(name:str) -> bool:
-    con = sqlite3.connect('wedPage/dataBase.db')
+def sql_delete_table(name:str):
+    con = sqlite3.connect('dataBase.db')
     cursorObj = con.cursor()
     cursorObj.execute("DELETE FROM "+name+";")
     con.commit()
     con.close()
-    return True
 
-def sql_delete_all(name:str) -> bool:
-    pass
+def sql_insert_rate(con,fail,success,name):
+    cursorObj = con.cursor()
+    cursorObj.execute('INSERT INTO rate(conversation, fail, success) VALUES(?, ?, ?)', (name,fail,success))
+    con.commit()
 
 def databaseRequest(name:str, conversension: dict) -> tuple:
-    con = sqlite3.connect('wedPage/dataBase.db')
+    con = sqlite3.connect('dataBase.db')
     sentence = "SELECT count(id) FROM "+ name + ";"
     cursorObj = con.cursor()
     cursorObj.execute(sentence)
@@ -38,7 +41,8 @@ def databaseRequest(name:str, conversension: dict) -> tuple:
     if amountOfData == 0:
         req = validationConversations(conversension)
         result = req
-        for intentcion,data in zip(req[0],req[1]):
+        sql_insert_rate(con,req["fail"], req["success"],name)
+        for intentcion,data in zip(req["names"],req["data"]):
             print((intentcion,data))
             sql_insert(con,(intentcion,data),name)
         con.close()
@@ -52,10 +56,20 @@ def databaseRequest(name:str, conversension: dict) -> tuple:
         for intention,confiance in rows:
             intentions.append(intention)
             confiances.append(confiance)
+        sentence = "select fail,success from rate where conversation='"+name+"';"
+        print(sentence)
+        cursorObj.execute(sentence)
+        obj = cursorObj.fetchall()[0]
+        print(obj)
         con.close()
-        return intentions,confiances
+        return {
+            "names":intentions,
+            "data":confiances,
+            "fail":obj[0],
+            "success":obj[1]
+        }
 
-def validationConversations(data:dict) -> tuple:
+def validationConversations(data:dict) -> dict:
     x1 = []
     y1 = []
     succes = 0
@@ -73,4 +87,10 @@ def validationConversations(data:dict) -> tuple:
                 fail += 1
                 list_values.append(0.0)
         y1.append(np.mean(list_values))
-    return x1,y1
+    
+    return {
+        "names":x1,
+        "data":y1,
+        "fail":round(100*fail/(fail+succes)),
+        "success":round(100*succes/(fail+succes))
+    }
