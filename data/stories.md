@@ -285,7 +285,7 @@
 * choose_number_3
     - utter_ask_name
 * give_name{"PERSON": "Miguel Medina"}
-    - utter_ask_type_insurance
+    - utter_nice_meet
     - utter_ask_type_insurance
 * choose_thrid-party_fire_theft
     - utter_ask_information_contact
