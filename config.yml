@@ -4,5 +4,5 @@ policies:
 - name: AugmentedMemoizationPolicy
 - name: KerasPolicy
   epochs: 100
-  max_history: 5
+  max_history: 15
 - name: MappingPolicy

@@ -40,10 +40,10 @@ def delete():
     answer = {"operation":False}
     if number == 3:
         for name in tables:
-            sql_delete_table(name)
+            delete_table(name)
         answer['operation'] = True
     elif 0 <= number < 3:
-        sql_delete_table(tables[number])
+        delete_table(tables[number])
         answer['operation'] = True
     return answer
 

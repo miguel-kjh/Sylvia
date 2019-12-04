@@ -3,6 +3,7 @@ import numpy as np
 import sqlite3
 import requests
 from typing import *
+from connection import DB_connection
 
 def connection(mess:str) -> dict:
     data = {
@@ -14,49 +15,24 @@ def connection(mess:str) -> dict:
     data = r.json()
     return data
 
-def sql_insert(con, entities, nameTable):
-    cursorObj = con.cursor()
-    cursorObj.execute('INSERT INTO '+ nameTable +'(name, data) VALUES(?, ?)', entities)
-    con.commit()
-
-def sql_update_rate_null(con, row):
-    cursorObj = con.cursor()
-    cursorObj.execute('UPDATE rate set fail=null, success=NULL where conversation="'+row+'";')
-    con.commit()
-
-def sql_delete_table(name:str):
-    con = sqlite3.connect('dataBase.db')
-    cursorObj = con.cursor()
-    sql_update_rate_null(con,name)
-    cursorObj.execute("DELETE FROM "+name+";")
-    con.commit()
-    con.close()
-
-def sql_insert_rate(con,fail,success,name):
-    cursorObj = con.cursor()
-    cursorObj.execute('UPDATE rate set fail=?, success=? where conversation="'+name+'";', (fail,success))
-    con.commit()
-
 def databaseRequest(name:str, conversension: dict) -> tuple:
-    con = sqlite3.connect('dataBase.db')
+    con = DB_connection()
     sentence = "SELECT count(id) FROM "+ name + ";"
-    cursorObj = con.cursor()
-    cursorObj.execute(sentence)
-    amountOfData = cursorObj.fetchone()[0]
+    con.cursorObj.execute(sentence)
+    amountOfData = con.cursorObj.fetchone()[0]
     print(amountOfData)
     if amountOfData == 0:
         req = validationConversations(conversension)
         result = req
-        sql_insert_rate(con,req["fail"], req["success"],name)
+        con.sql_insert_rate(req["fail"], req["success"],name)
         for intentcion,data in zip(req["names"],req["data"]):
             print((intentcion,data))
-            sql_insert(con,(intentcion,data),name)
-        con.close()
+            con.sql_insert((intentcion,data),name)
         return result
     else:
         sentence = "select name,data from " + name + ";"
-        cursorObj.execute(sentence)
-        rows = cursorObj.fetchall()
+        con.cursorObj.execute(sentence)
+        rows = con.cursorObj.fetchall()
         intentions = []
         confiances = []
         for intention,confiance in rows:
@@ -64,10 +40,9 @@ def databaseRequest(name:str, conversension: dict) -> tuple:
             confiances.append(confiance)
         sentence = "select fail,success from rate where conversation='"+name+"';"
         print(sentence)
-        cursorObj.execute(sentence)
-        obj = cursorObj.fetchall()[0]
+        con.cursorObj.execute(sentence)
+        obj = con.cursorObj.fetchall()[0]
         print(obj)
-        con.close()
         return {
             "names":intentions,
             "data":confiances,
@@ -89,7 +64,7 @@ def validationConversations(data:dict) -> dict:
                 succes += 1
                 list_values.append(round(awnser['intent']['confidence'],2))
             else:
-                print(awnser)
+                #print(awnser)
                 print("Label: ", conv,  "Awnser:", awnser['intent']['name'], "with", example)
                 fail += 1
                 list_values.append(0.0)
@@ -101,3 +76,7 @@ def validationConversations(data:dict) -> dict:
         "fail":round(100*fail/(fail+succes)),
         "success":round(100*succes/(fail+succes))
     }
+
+def delete_table(name:str):
+    con = DB_connection()
+    con.sql_delete_table(name)

@@ -512,7 +512,7 @@
     - utter_ask_for_walls
 * affirm
     - utter_ask_for_type_walls
-* choose_brick_walls
+* choose_brick
     - utter_ask_for_high
 * choose_lower_1.8
     - utter_ask_gate
@@ -588,7 +588,7 @@
     - utter_ask_for_walls
 * affirm
     - utter_ask_for_type_walls
-* choose_brick_walls
+* choose_brick
     - utter_ask_for_high
 * choose_lower_1.8
     - utter_ask_gate
@@ -664,7 +664,7 @@
     - utter_ask_for_walls
 * affirm
     - utter_ask_for_type_walls
-* choose_brick_walls
+* choose_brick
     - utter_ask_for_high
 * choose_lower_1.8
     - utter_ask_gate
@@ -739,7 +739,7 @@
     - utter_ask_for_walls
 * affirm
     - utter_ask_for_type_walls
-* choose_brick_walls
+* choose_brick
     - utter_ask_for_high
 * choose_lower_1.8
     - utter_ask_gate
@@ -817,7 +817,7 @@
     - utter_ask_for_walls
 * affirm
     - utter_ask_for_type_walls
-* choose_brick_walls
+* choose_brick
     - utter_ask_for_high
 * choose_lower_1.8
     - utter_ask_gate

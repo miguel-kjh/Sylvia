@@ -65,12 +65,7 @@
 ## intent:choose_brick
 - brick
 - A) brick
-- brick
-- brick
-
-## intent:choose_brick_walls
-- brick wall
-- brick
+- i choose a brick wall
 - brick wall
 
 ## intent:choose_complex
@@ -322,6 +317,7 @@
 - R10000
 - R1000
 - R100,000.00
+- R100,000.00 per month
 
 ## intent:give_name
 - I am [Conor McGregor](PERSON)

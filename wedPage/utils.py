@@ -123,7 +123,7 @@ conversension_quick_quote = {
     "deny-1":["No there’s not"],
     "choose_metal_windows":["Metal on all windows"],
     "affirm-4":["yes"],
-    "choose_brick_walls":["Brick wall"],
+    "choose_brick":["brick wall"],
     "choose_lower_1.8":["Lower than 1.8 meters"],
     "choose_security_gate":["With a security gate"],
     "deny-2":["No I haven’t"],

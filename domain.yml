@@ -91,7 +91,6 @@ intents:
 - say_rent
 - deny
 - give_rommates_amount
-- choose_brick_walls
 - choose_tile
 - give_money_amount
 - choose_security_gate
