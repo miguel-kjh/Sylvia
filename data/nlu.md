@@ -226,13 +226,8 @@
 - Nope
 - no it is not
 - no there`s not
-- no
-- no
-- no
 - no i have not
 - nope
-- no
-- no
 - Nope, it’s not
 - i don't accept
 
@@ -415,7 +410,6 @@
 - see you
 - yes, I am
 - bye
-- no, thank you
 
 ## intent:greet
 - hey
