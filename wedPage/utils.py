@@ -136,3 +136,13 @@ conversension_quick_quote = {
     "choose_proceed_with_quote":["Proceed with the quote"],
     "deny-8":["No"]
 }
+
+import pickle
+def save(path,model):
+    with open(path, 'wb') as modelFile:
+        pickle.dump(model, modelFile)    
+
+def load(path):
+    with open(path, 'rb') as modelFile:
+        model = pickle.load(modelFile)
+        return model

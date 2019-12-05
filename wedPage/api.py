@@ -4,6 +4,7 @@ import sqlite3
 import requests
 from typing import *
 from connection import DB_connection
+from utils import load,save
 
 def connection(mess:str) -> dict:
     data = {
@@ -23,6 +24,7 @@ def databaseRequest(name:str, conversension: dict) -> tuple:
     print(amountOfData)
     if amountOfData == 0:
         req = validationConversations(conversension)
+        save(name,req['dist'])
         result = req
         con.sql_insert_rate(req["fail"], req["success"],name)
         for intentcion,data in zip(req["names"],req["data"]):
@@ -47,12 +49,14 @@ def databaseRequest(name:str, conversension: dict) -> tuple:
             "names":intentions,
             "data":confiances,
             "fail":obj[0],
-            "success":obj[1]
+            "success":obj[1],
+            "dist":load(name)
         }
 
 def validationConversations(data:dict) -> dict:
     x1 = []
     y1 = []
+    dist = {}
     succes = 0
     fail = 0
     for conv in data.keys(): 
@@ -60,6 +64,10 @@ def validationConversations(data:dict) -> dict:
         x1.append(conv)
         for example in data[conv]:
             awnser = connection(example)
+            dist[awnser['intent']['name']] = {
+                "intentions":[i['name'] for i in awnser['intent_ranking']],
+                "pred":[round(i['confidence'],5) for i in awnser['intent_ranking']]
+            }
             if re.sub(r'-\d','',conv) == awnser['intent']['name']:
                 succes += 1
                 list_values.append(round(awnser['intent']['confidence'],2))
@@ -69,12 +77,12 @@ def validationConversations(data:dict) -> dict:
                 fail += 1
                 list_values.append(0.0)
         y1.append(np.mean(list_values))
-    
     return {
         "names":x1,
         "data":y1,
         "fail":round(100*fail/(fail+succes)),
-        "success":round(100*succes/(fail+succes))
+        "success":round(100*succes/(fail+succes)),
+        "dist":dist
     }
 
 def delete_table(name:str):

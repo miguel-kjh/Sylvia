@@ -72,6 +72,9 @@
     </div>
     <div class="container graph_information">
         <div id="graph"></div>
+        <div class="predictions">
+            
+        </div>
     </div>
     <script type="text/javascript">
         $(document).ready(function () {
@@ -87,6 +90,14 @@
                 $("#dataBody").append("<tr><td>"+ intention + "</td><td>" + elementData + "</td></tr>");
             }
             $(".tp").hide();
+            const keys = Object.keys({{dist | safe}});
+            keys.forEach(element => {
+                let str = '<h2>' + element + '</h2><div id="'+ element +'"></div>'
+                $(".predictions").append(str);
+                create_plot(element,'Accuracy', get_data_plot({{dist | safe}}[element]["pred"]))
+                //{{dist | safe}}[element]["intentions"] 
+                //{{dist | safe}}[element]["pred"] 
+            });
         });
         function get_data_plot(data) {
             // This function generate a vector data for morris.js can read it
@@ -115,10 +126,6 @@
                 labels: [xlable],
                 yLabelFormat:  function (value) {
                     return value + " %"
-                },
-                xLabelFormat: function(value){
-                    console.log({{names | safe}}[value])
-                    return {{names | safe}}[value]
                 },
                 ymax:max,
                 ymin:min
