@@ -60,21 +60,27 @@
 ## intent:choose_access_controlled
 - Access controlled
 - A) access controlled
-- access controlled
+- I think it would fit more with the first, Access controlled
+- I think access controlled
+- the system is through controlled access
+
 
 ## intent:choose_brick
 - brick
 - A) brick
 - i choose a brick wall
 - brick wall
+- is built of brick
+- The main material is brick
+- only brick
 
 ## intent:choose_complex
 - complex
 - My house is located in a residential complex
-- Complex
 - I live in a residential complex
-- complex
 - C) Complex
+- I live in a residential complex
+- is in a complex
 
 ## intent:choose_contents
 - contents
@@ -107,7 +113,9 @@
 ## intent:choose_metal_windows
 - Metal on all windows
 - metal
-- metal on all windows
+- the bars are metal
+- The main material for the bars is metal
+- they are metal
 
 ## intent:choose_moderate_risk
 - I prefer to invest in a moderate risk portfolio
@@ -159,8 +167,10 @@
 ## intent:choose_residencial_propuse
 - residential purpouse
 - residential only
-- residential purposes
-- residential purposes
+- for residential purposes only
+- A) residential purpouse
+- a) residential purpouse
+
 
 ## intent:choose_retirement
 - for retirement
@@ -176,6 +186,7 @@
 - we are safe thanks to a security door
 - security gate
 - security door
+- I use a security door 
 
 ## intent:choose_take_sustancial_risk
 - Take substantial risks expecting to earn substantial returns.
@@ -198,9 +209,10 @@
 
 ## intent:choose_tile
 - tile
-- A) title
-- tile
-- title
+- A) tile
+- my roof is made of tiles
+- we use tiles as building material
+- that is made of tiles
 
 ## intent:choose_townhouse
 - Townhouse
@@ -257,6 +269,7 @@
 
 ## intent:give_date
 - [1st](DAY_MONTH)
+- i choose the [1st](DAY_MONTH)
 - [28th](DAY_MONTH)
 - [15th](DAY_MONTH)
 - [20th](DAY_MONTH)
@@ -369,6 +382,9 @@
 - 1
 - one rommates
 - two rommates
+- I live with seven companions
+- I live with two companions
+- I have only one rommates
 - 3 roommates
 - 2 roommates
 
@@ -453,6 +469,8 @@
 - i rent
 - I'm renting
 - live for rent
+- live rent
+- I am currently living for rent
 
 ## synonym:miguel medina
 - Miguel Medina
