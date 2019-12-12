@@ -92,14 +92,16 @@
 
 ## intent:choose_equites
 - Equities
+- I have knowledge in equities
 - equities
-- i choose equities
-- equities
+- I am familiar with the equities
 
 ## intent:choose_high_capital
-- You are investing for high capital growth over the medium to long term
+- I am investing for high capital growth over the medium to long term
 - four
 - 4
+- the fourth
+- I would like to invest for high growth of medium and long-term capital
 - high capital
 - I choose high capital
 
@@ -123,13 +125,15 @@
 - option c
 - c
 - moderate
-- c
+- moderate risk portfolio
 
 ## intent:choose_monthly_amount
 - Monthly amount
 - monthly
 - I prefect invest a monthly amount
 - A monthly amount is better
+- month by month i prefer
+- I think a monthly amount would be more convenient
 
 ## intent:choose_number_3
 - 3.Car, Home & Building Insurance
@@ -152,11 +156,11 @@
 - 3 years
 - option b
 - option B
-- B
 - B. 3 years
 - 3 years
 - B
-- 4
+- three years from now
+- I want a three year plan
 
 ## intent:choose_proceed_with_quote
 - Proceed with the quote
@@ -175,11 +179,11 @@
 ## intent:choose_retirement
 - for retirement
 - retirement
-- G
 - g
 - G.For retirement
 - G
-- G
+- I want to invest for retirement
+- I want it for retirement
 
 ## intent:choose_security_gate
 - With a security gate
@@ -194,6 +198,7 @@
 - Take substantial
 - Option D
 - d
+- Take great risks expecting great results
 - substantial risks
 
 ## intent:choose_thrid-party_fire_theft
@@ -223,10 +228,10 @@
 
 ## intent:choose_two_funds
 - I would like to spread it into two funds
-- both
-- either of the two
-- I would like to spread it into two funds.
 - two funds, please
+- I would like to divide it into two funds
+- two funds seems the best
+- better in two
 
 ## intent:deny
 - no
@@ -269,7 +274,7 @@
 
 ## intent:give_date
 - [1st](DAY_MONTH)
-- i choose the [1st](DAY_MONTH)
+- [1st](DAY_MONTH)
 - [28th](DAY_MONTH)
 - [15th](DAY_MONTH)
 - [20th](DAY_MONTH)
@@ -281,6 +286,10 @@
 - [28 th](DAY_MONTH)
 - [28 th](DAY_MONTH)
 - [28 th](DAY_MONTH)
+- i choose the [1st](DAY_MONTH)
+- i choose the [15 st](DAY_MONTH)
+- the [28th](DAY_MONTH)
+- The [20 th](DAY_MONTH)
 
 ## intent:give_email
 - 1.[GBarnes@gmail.com](EMAIL)

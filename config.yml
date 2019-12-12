@@ -6,3 +6,7 @@ policies:
   epochs: 100
   max_history: 15
 - name: MappingPolicy
+- name: "FallbackPolicy"
+  nlu_threshold: 0.05
+  core_threshold: 0.05
+  fallback_action_name: "utter_default"

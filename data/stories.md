@@ -844,3 +844,7 @@
     - utter_finish_quick_quote
 * goodbye OR deny
     - utter_goodbye
+
+## fallback story
+* out_of_scope
+  - utter_default
