@@ -190,7 +190,7 @@
 - we are safe thanks to a security door
 - security gate
 - security door
-- I use a security door 
+- I use a security door
 
 ## intent:choose_take_sustancial_risk
 - Take substantial risks expecting to earn substantial returns.
@@ -433,7 +433,6 @@
 - Thanks but no, see you
 - no, thank you! Bye
 - see you
-- yes, I am
 - bye
 
 ## intent:greet
@@ -443,14 +442,12 @@
 - good morning
 - good evening
 - hey there
-- hi
 - hello
-- hi
-- hi
 - hello!
 
 ## intent:greet_and_ask_for_quote
 - Hi.I need a quote,please
+- hi, I need a quote pls
 - Good evening.I need a quote,please
 - Hello, i need help. Can I request a quote?
 - Good morning. Could I request a quote?

@@ -64,6 +64,7 @@ def validationConversations(data:dict) -> dict:
         x1.append(conv)
         for example in data[conv]:
             awnser = connection(example)
+            print(awnser)
             dist[awnser['intent']['name']] = {
                 "intentions":[i['name'] for i in awnser['intent_ranking']],
                 "pred":[round(i['confidence'],5) for i in awnser['intent_ranking']]
