@@ -1,4 +1,3 @@
-
 ## happy path
 * greet
   - utter_greet
@@ -26,6 +25,7 @@
 * choose_thrid-party_fire_theft
     - utter_ask_information_contact
 * give_email
+    - action_listen
 * give_tel
     - utter_ask_for_id
 * give_id
@@ -41,8 +41,11 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
+    - action_listen
 * give_name_account OR give_name
+    - action_listen
 * give_account_number
+    - action_listen
 * give_branch_code
     - utter_ask_for_type_account
 * give_type_account
@@ -65,6 +68,7 @@
 * choose_thrid-party_fire_theft
     - utter_ask_information_contact
 * give_email
+    - action_listen
 * give_tel
     - utter_ask_for_id
 * give_id
@@ -80,8 +84,11 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
+    - action_listen
 * give_name_account OR give_name
+    - action_listen
 * give_account_number
+    - action_listen
 * give_branch_code
     - utter_ask_for_type_account
 * give_type_account
@@ -102,6 +109,7 @@
 * choose_thrid-party_fire_theft
     - utter_ask_information_contact
 * give_email
+    - action_listen
 * give_tel
     - utter_ask_for_id
 * give_id
@@ -117,8 +125,11 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
+    - action_listen
 * give_name_account OR give_name
+    - action_listen
 * give_account_number
+    - action_listen
 * give_branch_code
     - utter_ask_for_type_account
 * give_type_account
@@ -140,6 +151,7 @@
 * choose_thrid-party_fire_theft
     - utter_ask_information_contact
 * give_tel
+    - action_listen
 * give_email
     - utter_ask_for_id
 * give_id
@@ -155,8 +167,11 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
+    - action_listen
 * give_name_account OR give_name
+    - action_listen
 * give_account_number
+    - action_listen
 * give_branch_code
     - utter_ask_for_type_account
 * give_type_account
@@ -179,6 +194,7 @@
 * choose_thrid-party_fire_theft
     - utter_ask_information_contact
 * give_tel
+    - action_listen
 * give_email
     - utter_ask_for_id
 * give_id
@@ -194,8 +210,11 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
+    - action_listen
 * give_name_account OR give_name
+    - action_listen
 * give_account_number
+    - action_listen
 * give_branch_code
     - utter_ask_for_type_account
 * give_type_account
@@ -216,6 +235,7 @@
 * choose_thrid-party_fire_theft
     - utter_ask_information_contact
 * give_tel
+    - action_listen
 * give_email
     - utter_ask_for_id
 * give_id
@@ -231,8 +251,11 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
+    - action_listen
 * give_name_account OR give_name
+    - action_listen
 * give_account_number
+    - action_listen
 * give_branch_code
     - utter_ask_for_type_account
 * give_type_account
@@ -253,6 +276,7 @@
 * choose_thrid-party_fire_theft
     - utter_ask_information_contact
 * give_email{"EMAIL": "email@hotmail.com"}
+    - action_listen
 * give_tel
     - utter_ask_for_id
 * give_tel{"ID": "890616 0135 008"}
@@ -268,8 +292,11 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
+    - action_listen
 * give_name_account OR give_name
+    - action_listen
 * give_account_number
+    - action_listen
 * give_branch_code
     - utter_ask_for_type_account
 * give_type_account
@@ -290,6 +317,7 @@
 * choose_thrid-party_fire_theft
     - utter_ask_information_contact
 * give_email
+    - action_listen
 * give_tel{"TELEPHONE": "834 123 4587"}
     - utter_ask_for_id
 * give_id{"id": "384933 3334 434"}
@@ -305,8 +333,11 @@
 * accept_offer OR affirm
     - utter_ask_for_bank_details
 * give_name_bank
+    - action_listen
 * give_name_account OR give_name
+    - action_listen
 * give_account_number
+    - action_listen
 * give_branch_code
     - utter_ask_for_type_account
 * give_type_account
@@ -322,7 +353,9 @@
 * give_name
     - utter_provide
 * give_id
+    - action_listen
 * give_email
+    - action_listen
 * give_tel
     - utter_ask_financial_needs
 * deny
@@ -334,7 +367,9 @@
 * give_name
     - utter_provide
 * give_id
+    - action_listen
 * give_tel
+    - action_listen
 * give_email
     - utter_ask_financial_needs
 * affirm
@@ -362,8 +397,11 @@
 * give_date
     - utter_ask_for_bank_details
 * give_name_bank
+    - action_listen
 * give_name_account OR give_name
+    - action_listen
 * give_account_number
+    - action_listen
 * give_branch_code
     - utter_ask_transaction
 * affirm
@@ -377,7 +415,9 @@
 * give_name
     - utter_provide
 * give_id
+    - action_listen
 * give_tel
+    - action_listen
 * give_email
     - utter_ask_financial_needs
 * affirm
@@ -405,8 +445,11 @@
 * give_date
     - utter_ask_for_bank_details
 * give_name_bank
+    - action_listen
 * give_name_account OR give_name
+    - action_listen
 * give_account_number
+    - action_listen
 * give_branch_code
     - utter_ask_transaction
 * affirm
@@ -421,7 +464,9 @@
 * give_name
     - utter_provide
 * give_id
+    - action_listen
 * give_tel
+    - action_listen
 * give_email{"EMAIL": "keli63_29@hotmail.com"}
     - utter_ask_financial_needs
 * affirm
@@ -448,7 +493,9 @@
 * give_date
     - utter_ask_for_bank_details
 * give_name_bank
+    - action_listen
 * give_name_account OR give_name
+    - action_listen
 * give_account_number
     - utter_ask_transaction
 * affirm
@@ -487,7 +534,7 @@
 * affirm
     - utter_rommates_amount
 * give_rommates_amount
-    - utter_ask_about_money_amount
+    - utter_ask_value
 * give_money_amount
     - utter_ask_property_used
 * choose_residencial_propuse
@@ -563,7 +610,7 @@
 * affirm
     - utter_rommates_amount
 * give_rommates_amount
-    - utter_ask_about_money_amount
+    - utter_ask_value
 * give_money_amount
     - utter_ask_property_used
 * choose_residencial_propuse
@@ -639,7 +686,7 @@
 * affirm
     - utter_rommates_amount
 * give_rommates_amount
-    - utter_ask_about_money_amount
+    - utter_ask_value
 * give_money_amount
     - utter_ask_property_used
 * choose_residencial_propuse
@@ -714,7 +761,7 @@
 * affirm
     - utter_rommates_amount
 * give_rommates_amount
-    - utter_ask_about_money_amount
+    - utter_ask_value
 * give_money_amount
     - utter_ask_property_used
 * choose_residencial_propuse
@@ -792,7 +839,7 @@
 * affirm
     - utter_rommates_amount
 * give_rommates_amount
-    - utter_ask_about_money_amount
+    - utter_ask_value
 * give_money_amount
     - utter_ask_property_used
 * choose_residencial_propuse

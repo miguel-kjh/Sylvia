@@ -70,6 +70,7 @@ actions:
 - utter_warn_email_imformation
 - utter_default
 - utter_ask_direction
+- utter_ask_value
 entities:
 - ADDRESS
 - DATE
@@ -145,6 +146,8 @@ templates:
   utter_ask_about_money_amount:
   - text: What is the monthly premium that you would like to invest?
   - text: "What is the monthly premium you would like to invest?"
+  utter_ask_value:
+  - text: Okay, And what is the full replacement value of your belongings? (Yours and your roommate)
   utter_ask_address:
   - text: "Thank you!\nPlease provide the physical address of where the vehicle will\
       \ be kept overnight."

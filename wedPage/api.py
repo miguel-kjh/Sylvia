@@ -28,7 +28,7 @@ def databaseRequest(name:str, conversension: dict) -> tuple:
         result = req
         con.sql_insert_rate(req["fail"], req["success"],name)
         for intentcion,data in zip(req["names"],req["data"]):
-            print((intentcion,data))
+            #print((intentcion,data))
             con.sql_insert((intentcion,data),name)
         return result
     else:
@@ -41,10 +41,10 @@ def databaseRequest(name:str, conversension: dict) -> tuple:
             intentions.append(intention)
             confiances.append(confiance)
         sentence = "select fail,success from rate where conversation='"+name+"';"
-        print(sentence)
+        #print(sentence)
         con.cursorObj.execute(sentence)
         obj = con.cursorObj.fetchall()[0]
-        print(obj)
+        #print(obj)
         return {
             "names":intentions,
             "data":confiances,
@@ -64,7 +64,7 @@ def validationConversations(data:dict) -> dict:
         x1.append(conv)
         for example in data[conv]:
             awnser = connection(example)
-            print(awnser)
+            #print(awnser)
             dist[awnser['intent']['name']] = {
                 "intentions":[i['name'] for i in awnser['intent_ranking']],
                 "pred":[round(i['confidence'],5) for i in awnser['intent_ranking']]
@@ -74,7 +74,7 @@ def validationConversations(data:dict) -> dict:
                 list_values.append(round(awnser['intent']['confidence'],2))
             else:
                 #print(awnser)
-                print("Label: ", conv,  "Awnser:", awnser['intent']['name'], "with", example)
+                #print("Label: ", conv,  "Awnser:", awnser['intent']['name'], "with", example)
                 fail += 1
                 list_values.append(0.0)
         y1.append(np.mean(list_values))

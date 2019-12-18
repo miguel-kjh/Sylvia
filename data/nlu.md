@@ -292,14 +292,30 @@
 - The [20 th](DAY_MONTH)
 
 ## intent:give_email
-- 1.[GBarnes@gmail.com](EMAIL)
-- my email is [heisenberg@gmail.com](EMAIL)
+- 1.[GBarnes@gmail.za](EMAIL)
+- my email is [heisenberg@gmail.es](EMAIL)
 - this is my account [miguel@gmail.com](EMAIL)
 - [larry@hotmail.com](EMAIL)
 - [kelly@gmail.com](EMAIL)
 - [angel@gmail.com](EMAIL)
 - [tesla_18@gmail.com](EMAIL)
-- [keli63_29@hotmail.com](EMAIL)
+- [keli63_29@hotmail.za](EMAIL)
+- [BillGates@gmail.es](EMAIL)
+- [SteveJobs@yahoo.com](EMAIL)
+- [BillJobs@aol.de](EMAIL)
+- [disposable.style.email.with+symbol@example.com](EMAIL)
+- [other.email-with-hyphen@example.com](EMAIL)
+- [fully-qualified-domain@example.com](EMAIL)
+- [user.name+tag+sorting@example.com](EMAIL)
+- [x@example.com](EMAIL)
+- [example-indeed@strange-example.com](EMAIL)
+- [admin@mailserver1](EMAIL)
+- [mailhost!username@example.org](EMAIL)
+- ["john..doe"@example.org](EMAIL)
+- [" "@example.org](EMAIL)
+- [example@s.example](EMAIL)
+- [admin@mailserver1](EMAIL)
+- [user%example.com@example.org](EMAIL)
 
 ## intent:give_id
 - [890616 0135 008](ID)
@@ -322,8 +338,9 @@
 
 ## intent:give_logbook
 - Uploading file
-- uploading file
-- uploading file
+- uploading file:
+- upload
+- up
 
 ## intent:give_money_amount
 - R1000 per month
@@ -346,8 +363,7 @@
 - [Miguel Medina](PERSON)
 - [Larry Fields](PERSON)
 - This is [Kelly Trump](PERSON)
-- [Miguel Medina](PERSON:miguel medina)
-- [Miguel Medina](PERSON:miguel medina)
+- [Jack Freeman](PERSON)
 
 ## intent:give_name_account
 - B.Gills
@@ -477,9 +493,6 @@
 - live for rent
 - live rent
 - I am currently living for rent
-
-## synonym:miguel medina
-- Miguel Medina
 
 ## regex:give_account_number
 - \d{10}$
