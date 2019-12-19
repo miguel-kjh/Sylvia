@@ -453,13 +453,22 @@
 
 ## intent:greet
 - hey
-- hello
+- How’s your day? 
+- Good afternoon
 - hi
+- Nice to see you
 - good morning
+- It’s nice to meet you
 - good evening
 - hey there
 - hello
 - hello!
+- How’s it going?
+- Good to see you
+- How are things?
+- What’s going on?
+- What’s up?
+- How are you doing?
 
 ## intent:greet_and_ask_for_quote
 - Hi.I need a quote,please
