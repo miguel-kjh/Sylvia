@@ -1,12 +1,13 @@
 language: en
-pipeline: pretrained_embeddings_spacy
+pipeline: supervised_embeddings
 policies:
-- name: MemoizationPolicy
+- name: AugmentedMemoizationPolicy
 - name: KerasPolicy
-  epochs: 100
-  max_history: 15
+  epochs: 50
+  max_history: 20
 - name: MappingPolicy
 - name: TwoStageFallbackPolicy
   nlu_threshold: 0.05
+  core_threshold: 0.0
   fallback_nlu_action_name: "action_default_fallback"
   deny_suggestion_intent_name: "out_of_scope"

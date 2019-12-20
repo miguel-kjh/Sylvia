@@ -28,7 +28,7 @@ def databaseRequest(name:str, conversension: dict) -> tuple:
         result = req
         con.sql_insert_rate(req["fail"], req["success"],name)
         for intentcion,data in zip(req["names"],req["data"]):
-            #print((intentcion,data))
+            print((intentcion,data))
             con.sql_insert((intentcion,data),name)
         return result
     else:

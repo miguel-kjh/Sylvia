@@ -339,8 +339,10 @@
 ## intent:give_logbook
 - Uploading file
 - uploading file:
+- uploaded file
 - upload
-- up
+- I have uploaded the file
+- the file have been uploaded
 
 ## intent:give_money_amount
 - R1000 per month
