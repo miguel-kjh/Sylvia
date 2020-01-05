@@ -71,6 +71,7 @@ actions:
 - utter_default
 - utter_ask_direction
 - utter_ask_value
+- utter_out_chitchat
 entities:
 - ADDRESS
 - DATE
@@ -130,6 +131,7 @@ intents:
 - choose_high_capital
 - choose_monthly_amount
 - out_of_scope
+- chitchat
 slots:
   DAY_MONTH:
     initial_value: ''
@@ -389,3 +391,6 @@ templates:
    - text: "Sorry, I don´t understand, Could you repeat?"
   utter_ask_direction:
   - text: "Cool, thanks. Now I’ll need to know the address of the property where your contents are housed."
+  utter_out_chitchat:
+  - text: "Please refrain only from talking with me about banking matters. I'm just a machine 🤖. Now can we continue?"
+  - text: "I'm just a machine 🤖 for bank conversations. Now can we continue?"
