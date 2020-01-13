@@ -1,9 +1,9 @@
 {
-  "PERSON": {
+  "DATE": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 20
+    "support": 9
   },
   "TELEPHONE": {
     "precision": 1.0,
@@ -11,11 +11,23 @@
     "f1-score": 1.0,
     "support": 18
   },
-  "DATE": {
+  "ID": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 9
+    "support": 20
+  },
+  "PERSON": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20
+  },
+  "ADDRESS": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40
   },
   "EMAIL": {
     "precision": 1.0,
@@ -28,18 +40,6 @@
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 26
-  },
-  "ADDRESS": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 40
-  },
-  "ID": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 20
   },
   "micro avg": {
     "precision": 1.0,

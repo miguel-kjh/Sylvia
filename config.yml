@@ -6,8 +6,8 @@ policies:
   epochs: 100
   max_history: 15
 - name: MappingPolicy
-#- name: TwoStageFallbackPolicy
-  #nlu_threshold: 0.05
-  #core_threshold: 0.0
-  #fallback_nlu_action_name: "action_default_fallback"
-  #deny_suggestion_intent_name: "out_of_scope"
+- name: TwoStageFallbackPolicy
+  nlu_threshold: 0
+  core_threshold: 0
+  fallback_nlu_action_name: "action_default_fallback"
+  deny_suggestion_intent_name: "out_of_scope"
