@@ -145,6 +145,21 @@
 - car,home...
 - Car, Home & Building Insurance
 
+## intent:choose_car_insurance
+- 1. Car Insurance
+- Car Insurance
+- number 1
+- 1 
+- car...
+- car
+
+## intent:choose_health_insurance
+- 2. Health Insurance
+- Health Insurance
+- Health...
+- number 2
+- 2
+
 ## intent:choose_one_month_or_less
 - One month or less
 - one month
@@ -211,6 +226,20 @@
 - fire, and theft
 - fire, theft...
 - fire and theft
+
+## intent:choose_third_party
+- Third-party only
+- only third party
+- number 3
+- 3
+- 3. Third-party only
+
+## intent: choose_comprehensive_insurance
+- 1. Comprehensive car insurance
+- Comprehensive car insurance
+- Comprehensive car
+- number 1
+- 1 
 
 ## intent:choose_tile
 - tile
@@ -309,13 +338,7 @@
 - [user.name+tag+sorting@example.com](EMAIL)
 - [x@example.com](EMAIL)
 - [example-indeed@strange-example.com](EMAIL)
-- [admin@mailserver1](EMAIL)
 - [mailhost!username@example.org](EMAIL)
-- ["john..doe"@example.org](EMAIL)
-- [" "@example.org](EMAIL)
-- [example@s.example](EMAIL)
-- [admin@mailserver1](EMAIL)
-- [user%example.com@example.org](EMAIL)
 
 ## intent:give_id
 - [890616 0135 008](ID)

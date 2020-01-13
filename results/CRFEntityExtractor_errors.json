@@ -1,0 +1,14 @@
+[
+  {
+    "text": "1.GBarnes@gmail.za",
+    "entities": [
+      {
+        "start": 2,
+        "end": 18,
+        "value": "GBarnes@gmail.za",
+        "entity": "EMAIL"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

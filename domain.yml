@@ -132,11 +132,21 @@ intents:
 - choose_monthly_amount
 - out_of_scope
 - chitchat
+- choose_car_insurance
+- choose_health_insurance
+- choose_third_party
+- choose_comprehensive_insurance
 slots:
   DAY_MONTH:
     initial_value: ''
     type: text
   PERSON:
+    initial_value: ''
+    type: text
+  EMAIL:
+    initial_value: ''
+    type: text
+  TELEPHONE:
     initial_value: ''
     type: text
 templates:

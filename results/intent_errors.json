@@ -1,0 +1,146 @@
+[
+  {
+    "text": "4",
+    "intent": "choose_high_capital",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.2558642029762268
+    }
+  },
+  {
+    "text": "number 3",
+    "intent": "choose_number_3",
+    "intent_prediction": {
+      "name": "choose_third_party",
+      "confidence": 0.2816573679447174
+    }
+  },
+  {
+    "text": "number 3",
+    "intent": "choose_number_3",
+    "intent_prediction": {
+      "name": "choose_third_party",
+      "confidence": 0.2816573679447174
+    }
+  },
+  {
+    "text": "3",
+    "intent": "choose_number_3",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.2558642029762268
+    }
+  },
+  {
+    "text": "number 1",
+    "intent": "choose_car_insurance",
+    "intent_prediction": {
+      "name": "choose_third_party",
+      "confidence": 0.2816573679447174
+    }
+  },
+  {
+    "text": "1",
+    "intent": "choose_car_insurance",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.2558642029762268
+    }
+  },
+  {
+    "text": "number 2",
+    "intent": "choose_health_insurance",
+    "intent_prediction": {
+      "name": "choose_third_party",
+      "confidence": 0.2816573679447174
+    }
+  },
+  {
+    "text": "2",
+    "intent": "choose_health_insurance",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.2558642029762268
+    }
+  },
+  {
+    "text": "3",
+    "intent": "choose_plan_of_3_years",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.2558642029762268
+    }
+  },
+  {
+    "text": "number 2",
+    "intent": "choose_thrid-party_fire_theft",
+    "intent_prediction": {
+      "name": "choose_third_party",
+      "confidence": 0.2816573679447174
+    }
+  },
+  {
+    "text": "2",
+    "intent": "choose_thrid-party_fire_theft",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.2558642029762268
+    }
+  },
+  {
+    "text": "3",
+    "intent": "choose_third_party",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.2558642029762268
+    }
+  },
+  {
+    "text": "number 1",
+    "intent": "choose_comprehensive_insurance",
+    "intent_prediction": {
+      "name": "choose_third_party",
+      "confidence": 0.2816573679447174
+    }
+  },
+  {
+    "text": "1",
+    "intent": "choose_comprehensive_insurance",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.2558642029762268
+    }
+  },
+  {
+    "text": "5",
+    "intent": "give_rommates_amount",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.2558642029762268
+    }
+  },
+  {
+    "text": "1",
+    "intent": "give_rommates_amount",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.2558642029762268
+    }
+  },
+  {
+    "text": "How are things?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6157330870628357
+    }
+  },
+  {
+    "text": "how are you doing",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4871712625026703
+    }
+  }
+]
