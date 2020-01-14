@@ -27,9 +27,9 @@
     - utter_nice_meet
     - utter_ask_type_insurance
 * choose_thrid-party_fire_theft OR choose_third_party OR choose_comprehensive_insurance
-    - utter_ask_information_contact
+    - utter_ask_for_email
 * give_email
-    - action_listen
+    - utter_ask_for_tel
 * give_tel
     - utter_ask_for_id
 * give_id
@@ -43,13 +43,13 @@
 * give_licence
     - utter_give_offer
 * accept_offer OR affirm
-    - utter_ask_for_bank_details
+    - utter_ask_for_bank_name
 * give_name_bank
-    - action_listen
+    - utter_ask_for_bank_account
 * give_name_account OR give_name
-    - action_listen
+    - utter_ask_for_bank_number
 * give_account_number
-    - action_listen
+    - utter_ask_for_bank_code
 * give_branch_code
     - utter_ask_for_type_account
 * give_type_account
@@ -59,7 +59,7 @@
 * goodbye
     - utter_goodbye
 
-## interactive_story_1
+## interactive_story_2
 * greet
     - utter_greet
 * ask_for_quote
@@ -70,9 +70,9 @@
     - utter_nice_meet
     - utter_ask_type_insurance
 * choose_thrid-party_fire_theft OR choose_third_party OR choose_comprehensive_insurance
-    - utter_ask_information_contact
+    - utter_ask_for_email
 * give_email
-    - action_listen
+    - utter_ask_for_tel
 * give_tel
     - utter_ask_for_id
 * give_id
@@ -86,13 +86,13 @@
 * give_licence
     - utter_give_offer
 * accept_offer OR affirm
-    - utter_ask_for_bank_details
+    - utter_ask_for_bank_name
 * give_name_bank
-    - action_listen
+    - utter_ask_for_bank_account
 * give_name_account OR give_name
-    - action_listen
+    - utter_ask_for_bank_number
 * give_account_number
-    - action_listen
+    - utter_ask_for_bank_code
 * give_branch_code
     - utter_ask_for_type_account
 * give_type_account
@@ -102,7 +102,7 @@
 * goodbye
     - utter_goodbye
 
-## interactive_story_1
+## interactive_story_3
 * ask_for_quote
     - utter_acquaint_quote
 * choose_number_3 OR choose_car_insurance OR choose_health_insurance
@@ -111,9 +111,9 @@
     - utter_nice_meet
     - utter_ask_type_insurance
 * choose_thrid-party_fire_theft OR choose_third_party OR choose_comprehensive_insurance
-    - utter_ask_information_contact
+    - utter_ask_for_email
 * give_email
-    - action_listen
+    - utter_ask_for_tel
 * give_tel
     - utter_ask_for_id
 * give_id
@@ -127,13 +127,13 @@
 * give_licence
     - utter_give_offer
 * accept_offer OR affirm
-    - utter_ask_for_bank_details
+    - utter_ask_for_bank_name
 * give_name_bank
-    - action_listen
+    - utter_ask_for_bank_account
 * give_name_account OR give_name
-    - action_listen
+    - utter_ask_for_bank_number
 * give_account_number
-    - action_listen
+    - utter_ask_for_bank_code
 * give_branch_code
     - utter_ask_for_type_account
 * give_type_account
@@ -143,7 +143,7 @@
 * goodbye
     - utter_goodbye
 
-## interactive_story_10
+## interactive_story_4
 * investment_money
     - utter_ask_name
 * give_name
@@ -157,7 +157,7 @@
 * deny
     - utter_goodbye
 
-## interactive_story_1
+## interactive_story_5
 * investment_money
     - utter_ask_name
 * give_name
@@ -191,13 +191,13 @@
 * give_money_amount
     - utter_ask_for_date
 * give_date
-    - utter_ask_for_bank_details
+    - utter_ask_for_bank_name
 * give_name_bank
-    - action_listen
+    - utter_ask_for_bank_account
 * give_name_account OR give_name
-    - action_listen
+    - utter_ask_for_bank_number
 * give_account_number
-    - action_listen
+    - utter_ask_for_bank_code
 * give_branch_code
     - utter_ask_transaction
 * affirm
@@ -205,13 +205,13 @@
 * goodbye OR deny
     - utter_goodbye
 
-## interactive_story_1
+## interactive_story_6
 * ask_for_quick_quote
    - utter_ask_privacy_policies
 * deny
    - utter_goodbye
 
-## interative_story_1
+## interative_story_7
 * ask_for_quick_quote
     - utter_ask_privacy_policies
 * affirm
@@ -287,7 +287,7 @@
 * goodbye OR deny
     - utter_goodbye
 
-## interative_story_1
+## interative_story_8
 * ask_for_quick_quote
     - utter_ask_privacy_policies
 * affirm

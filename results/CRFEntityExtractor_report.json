@@ -1,21 +1,15 @@
 {
+  "EMAIL": {
+    "precision": 1.0,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.9714285714285714,
+    "support": 18
+  },
   "DATE": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 9
-  },
-  "TELEPHONE": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 18
-  },
-  "ID": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 20
   },
   "PERSON": {
     "precision": 1.0,
@@ -23,23 +17,29 @@
     "f1-score": 1.0,
     "support": 20
   },
-  "ADDRESS": {
+  "ID": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 40
-  },
-  "EMAIL": {
-    "precision": 1.0,
-    "recall": 0.9444444444444444,
-    "f1-score": 0.9714285714285714,
-    "support": 18
+    "support": 20
   },
   "DAY_MONTH": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 26
+  },
+  "ADDRESS": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40
+  },
+  "TELEPHONE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18
   },
   "micro avg": {
     "precision": 1.0,

@@ -6,7 +6,10 @@ actions:
 - utter_ask_burglar_bars
 - utter_ask_financial_needs
 - utter_ask_for_assumptions
-- utter_ask_for_bank_details
+- utter_ask_for_bank_name
+- utter_ask_for_bank_account
+- utter_ask_for_bank_number
+- utter_ask_for_bank_code
 - utter_ask_for_claims
 - utter_ask_for_date
 - utter_ask_for_deny_insurance
@@ -25,7 +28,7 @@ actions:
 - utter_ask_gate
 - utter_ask_goals
 - utter_ask_id_sing_up
-- utter_ask_information_contact
+- utter_ask_for_email
 - utter_ask_localitation
 - utter_ask_lumpo_or_monthly_amount
 - utter_ask_name
@@ -72,14 +75,15 @@ actions:
 - utter_ask_direction
 - utter_ask_value
 - utter_out_chitchat
+- utter_ask_for_tel
 entities:
 - ADDRESS
 - DATE
 - DAY_MONTH
-- EMAIL
 - ID
 - PERSON
 - TELEPHONE
+- EMAIL
 intents:
 - give_tel
 - ask_for_quick_quote
@@ -143,10 +147,10 @@ slots:
   PERSON:
     initial_value: ''
     type: text
-  EMAIL:
+  TELEPHONE:
     initial_value: ''
     type: text
-  TELEPHONE:
+  EMAIL:
     initial_value: ''
     type: text
 templates:
@@ -182,9 +186,14 @@ templates:
       \ a crime (including fraud). You don\u2019t have a default judgment against\
       \ you. So, are my assumptions about you correct?\nA) Yes they are\nB) No they\u2019\
       re not"
-  utter_ask_for_bank_details:
-  - text: "Sure! Let\u2019s do it!\nPlease provide your banking details:\n1.Bank\n\
-      2.Account Name\n3.Account Number\n4.Branch Code"
+  utter_ask_for_bank_name:
+  - text: "Sure! Let\u2019s do it!\nPlease provide your banking details:\nBank\n"
+  utter_ask_for_bank_account:
+  - text: "Account Name"
+  utter_ask_for_bank_number:
+  - text: "Account Number"
+  utter_ask_for_bank_code:
+  - text: "Branch Code"
   utter_ask_for_claims:
   - text: "Have you made any claims in the last three years?\nA) Yes I have\nB) No\
       \ I haven\u2019t"
@@ -242,11 +251,9 @@ templates:
   utter_ask_id_sing_up:
   - text: "Perfect, verified!\nOur products are currently only available to SA ID\
       \ number holders, so please enter your ID number."
-  utter_ask_information_contact:
-  - text: "Good choice! Please enter the following:\n1. Email address \n2. Contact\
-      \ number"
-  - text: "Nice choice! Please enter the following:\n1. Email address \n2. Contact\
-      \ number"
+  utter_ask_for_email:
+  - text: "Good choice! Please enter the following:\n Email address"
+  - text: "Ok!! Please enter the following:\n Email address"
   utter_ask_localitation:
   - text: "What kind of location is your house in?\nA) Residential suburb\nB) Housing\
       \ estate\nC) Complex"
@@ -404,3 +411,5 @@ templates:
   utter_out_chitchat:
   - text: "Please refrain only from talking with me about banking matters. I'm just a machine 🤖. Now can we continue?"
   - text: "I'm just a machine 🤖 for bank conversations. Now can we continue?"
+  utter_ask_for_tel:
+  - text: "Now you telephone"

@@ -1,13 +1,23 @@
 language: en
-pipeline: supervised_embeddings
+pipeline:
+- name: "WhitespaceTokenizer"
+- name: "RegexFeaturizer"
+- name: "CRFEntityExtractor"
+- name: "EntitySynonymMapper"
+- name: "CountVectorsFeaturizer"
+- name: "CountVectorsFeaturizer"
+  analyzer: "char_wb"
+  min_ngram: 1
+  max_ngram: 4
+- name: "EmbeddingIntentClassifier"
 policies:
 - name: AugmentedMemoizationPolicy
 - name: KerasPolicy
   epochs: 100
-  max_history: 15
+  max_history: 10
 - name: MappingPolicy
 - name: TwoStageFallbackPolicy
-  nlu_threshold: 0
-  core_threshold: 0
+  nlu_threshold: 0.7
+  core_threshold: 0.1
   fallback_nlu_action_name: "action_default_fallback"
   deny_suggestion_intent_name: "out_of_scope"

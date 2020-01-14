@@ -104,7 +104,7 @@ conversension_quick_quote = {
     "give_tel":["076 869 1449"],
     "give_otp":["1588"],
     "give_id":["651006 5864 078"],
-    "give_name":["Ian Marrero"],
+    "give_name":["Miguel Medina"],
     "choose_contents":["Contents"],
     "affirm-1":["yes"],
     "give_address":["30 Joan avenue, La Montagne, Pretoria, 0184, South Africa"],

@@ -364,6 +364,7 @@
 - uploading file:
 - uploaded file
 - upload
+- file
 - I have uploaded the file
 - the file have been uploaded
 
