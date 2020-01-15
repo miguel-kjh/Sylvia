@@ -149,10 +149,10 @@
 * give_name
     - utter_provide
 * give_id
-    - action_listen
-* give_email
-    - action_listen
+    - utter_provide_cell
 * give_tel
+    - utter_provide_email
+* give_email
     - utter_ask_financial_needs
 * deny
     - utter_goodbye
@@ -163,9 +163,9 @@
 * give_name
     - utter_provide
 * give_id
-    - action_listen
+    - utter_provide_cell
 * give_tel
-    - action_listen
+    - utter_provide_email
 * give_email
     - utter_ask_financial_needs
 * affirm
@@ -206,15 +206,63 @@
     - utter_goodbye
 
 ## interactive_story_6
+* investment_money
+    - utter_ask_name
+* give_name
+    - utter_provide
+* give_id
+    - utter_provide_cell
+* give_tel
+    - utter_provide_email
+* give_email
+    - utter_ask_financial_needs
+* affirm
+    - utter_ask_goals
+* choose_retirement
+    - utter_ask_time_of_plan
+* choose_plan_of_3_years
+    - utter_ask_for_risk
+* choose_take_sustancial_risk
+    - utter_ask_relation_invest_risk
+* choose_moderate_risk
+    - utter_ask_products
+* choose_equites
+    - utter_ask_risk_class
+* choose_high_capital
+    - utter_propouse_funds
+* choose_two_funds
+    - utter_confirm_credit
+* affirm
+    - utter_ask_lumpo_or_monthly_amount
+* choose_monthly_amount
+    - utter_ask_about_money_amount
+* give_money_amount
+    - utter_ask_for_date
+* give_date
+    - utter_ask_for_bank_name
+* give_name_bank
+    - utter_ask_for_bank_account
+* give_name_account OR give_name
+    - utter_ask_for_bank_number
+* give_account_number
+    - utter_ask_for_bank_code
+* give_branch_code
+    - utter_ask_transaction
+* affirm
+    - utter_warn_email_imformation
+* goodbye OR deny
+    - utter_goodbye
+
+## interactive_story_7
 * ask_for_quick_quote
    - utter_ask_privacy_policies
 * deny
    - utter_goodbye
 
-## interative_story_7
+## interative_story_8
 * ask_for_quick_quote
     - utter_ask_privacy_policies
-* affirm
+* affirm OR accept_offer
     - utter_ask_tel_sing_up
 * give_tel
     - utter_ask_otp_sing_up
@@ -287,10 +335,10 @@
 * goodbye OR deny
     - utter_goodbye
 
-## interative_story_8
+## interative_story_9
 * ask_for_quick_quote
     - utter_ask_privacy_policies
-* affirm
+* affirm OR accept_offer
     - utter_ask_tel_sing_up
 * give_tel
     - utter_ask_otp_sing_up
@@ -362,6 +410,8 @@
     - utter_finish_quick_quote
 * goodbye OR deny
     - utter_goodbye
+
+
 
 ## fallback story
 * out_of_scope

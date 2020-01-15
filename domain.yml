@@ -68,6 +68,8 @@ actions:
 - utter_nice_meet
 - utter_propouse_funds
 - utter_provide
+- utter_provide_cell
+- utter_provide_email
 - utter_quick_quote_products
 - utter_rommates_amount
 - utter_warn_email_imformation
@@ -394,8 +396,11 @@ templates:
       \ like to invest into one fund only, or would you like to spread your investment\
       \ into more than one fund?"
   utter_provide:
-  - text: "Could you please provide your\nID number\nCell phone number\nYour email\
-      \ address"
+  - text: "Could you please provide your\nID number"
+  utter_provide_cell:
+  - text: "Cell phone number"
+  utter_provide_email:
+  - text: "Your email address"
   utter_quick_quote_products:
   - text: "Which one of our simple and effective products can I help you get a quote\
       \ on?\nA) Vehicle\nB) Contents\nC) Building"

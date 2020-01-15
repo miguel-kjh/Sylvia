@@ -4,7 +4,7 @@
     "intent": "choose_high_capital",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3100695013999939
+      "confidence": 0.3813876807689667
     }
   },
   {
@@ -12,7 +12,7 @@
     "intent": "choose_number_3",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3100695013999939
+      "confidence": 0.3813876807689667
     }
   },
   {
@@ -20,7 +20,7 @@
     "intent": "choose_car_insurance",
     "intent_prediction": {
       "name": "choose_number_3",
-      "confidence": 0.2147977203130722
+      "confidence": 0.25494325160980225
     }
   },
   {
@@ -28,7 +28,7 @@
     "intent": "choose_car_insurance",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3100695013999939
+      "confidence": 0.3813876807689667
     }
   },
   {
@@ -36,7 +36,7 @@
     "intent": "choose_health_insurance",
     "intent_prediction": {
       "name": "choose_number_3",
-      "confidence": 0.2147977203130722
+      "confidence": 0.25494325160980225
     }
   },
   {
@@ -44,7 +44,7 @@
     "intent": "choose_health_insurance",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3100695013999939
+      "confidence": 0.3813876807689667
     }
   },
   {
@@ -52,7 +52,7 @@
     "intent": "choose_plan_of_3_years",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3100695013999939
+      "confidence": 0.3813876807689667
     }
   },
   {
@@ -60,7 +60,7 @@
     "intent": "choose_thrid-party_fire_theft",
     "intent_prediction": {
       "name": "choose_number_3",
-      "confidence": 0.2147977203130722
+      "confidence": 0.25494325160980225
     }
   },
   {
@@ -68,7 +68,7 @@
     "intent": "choose_thrid-party_fire_theft",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3100695013999939
+      "confidence": 0.3813876807689667
     }
   },
   {
@@ -76,7 +76,7 @@
     "intent": "choose_third_party",
     "intent_prediction": {
       "name": "choose_number_3",
-      "confidence": 0.2147977203130722
+      "confidence": 0.25494325160980225
     }
   },
   {
@@ -84,7 +84,7 @@
     "intent": "choose_third_party",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3100695013999939
+      "confidence": 0.3813876807689667
     }
   },
   {
@@ -92,7 +92,7 @@
     "intent": "choose_comprehensive_insurance",
     "intent_prediction": {
       "name": "choose_number_3",
-      "confidence": 0.2147977203130722
+      "confidence": 0.25494325160980225
     }
   },
   {
@@ -100,7 +100,7 @@
     "intent": "choose_comprehensive_insurance",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3100695013999939
+      "confidence": 0.3813876807689667
     }
   },
   {
@@ -108,7 +108,7 @@
     "intent": "give_rommates_amount",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3100695013999939
+      "confidence": 0.3813876807689667
     }
   },
   {
@@ -116,7 +116,7 @@
     "intent": "give_rommates_amount",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3100695013999939
+      "confidence": 0.3813876807689667
     }
   },
   {
@@ -124,7 +124,7 @@
     "intent": "chitchat",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.6518964767456055
+      "confidence": 0.5258094072341919
     }
   },
   {
@@ -132,7 +132,7 @@
     "intent": "chitchat",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.5328298807144165
+      "confidence": 0.5843815803527832
     }
   }
 ]

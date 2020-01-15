@@ -1,27 +1,9 @@
 {
-  "choose_security_gate": {
+  "investment_money": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 5
-  },
-  "goodbye": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 10
-  },
-  "choose_plan_of_3_years": {
-    "precision": 1.0,
-    "recall": 0.9,
-    "f1-score": 0.9473684210526316,
-    "support": 10
-  },
-  "chitchat": {
-    "precision": 1.0,
-    "recall": 0.9459459459459459,
-    "f1-score": 0.9722222222222222,
-    "support": 37
+    "support": 11
   },
   "choose_third_party": {
     "precision": 1.0,
@@ -29,67 +11,37 @@
     "f1-score": 0.7499999999999999,
     "support": 5
   },
-  "ask_for_quick_quote": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 10
-  },
-  "choose_high_capital": {
-    "precision": 1.0,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.923076923076923,
-    "support": 7
-  },
-  "give_rommates_amount": {
-    "precision": 1.0,
-    "recall": 0.8,
-    "f1-score": 0.888888888888889,
-    "support": 10
-  },
-  "choose_comprehensive_insurance": {
-    "precision": 1.0,
-    "recall": 0.6,
-    "f1-score": 0.7499999999999999,
-    "support": 5
-  },
-  "choose_thrid-party_fire_theft": {
-    "precision": 1.0,
-    "recall": 0.7777777777777778,
-    "f1-score": 0.8750000000000001,
-    "support": 9
-  },
-  "choose_residencial_propuse": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5
-  },
-  "give_type_account": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16
-  },
-  "give_name_account": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6
-  },
   "greet": {
     "precision": 0.8947368421052632,
     "recall": 1.0,
     "f1-score": 0.9444444444444444,
     "support": 17
   },
-  "give_tel": {
+  "choose_tile": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 6
+    "support": 5
   },
-  "choose_townhouse": {
+  "say_rent": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "chitchat": {
+    "precision": 1.0,
+    "recall": 0.9459459459459459,
+    "f1-score": 0.9722222222222222,
+    "support": 37
+  },
+  "choose_equites": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4
+  },
+  "choose_access_controlled": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -101,11 +53,47 @@
     "f1-score": 1.0,
     "support": 6
   },
-  "give_money_amount": {
+  "give_id": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 9
+    "support": 10
+  },
+  "choose_metal_windows": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "choose_lower_1.8": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "give_otp": {
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.5,
+    "support": 5
+  },
+  "choose_number_3": {
+    "precision": 0.5833333333333334,
+    "recall": 0.875,
+    "f1-score": 0.7000000000000001,
+    "support": 8
+  },
+  "choose_health_insurance": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10
   },
   "choose_monthly_amount": {
     "precision": 1.0,
@@ -119,47 +107,17 @@
     "f1-score": 1.0,
     "support": 17
   },
-  "give_email": {
+  "give_name_bank": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 18
+    "support": 19
   },
-  "choose_metal_windows": {
+  "choose_thrid-party_fire_theft": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5
-  },
-  "choose_complex": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6
-  },
-  "choose_number_3": {
-    "precision": 0.5833333333333334,
-    "recall": 0.875,
-    "f1-score": 0.7000000000000001,
-    "support": 8
-  },
-  "choose_contents": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6
-  },
-  "choose_proceed_with_quote": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4
-  },
-  "choose_two_funds": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5
+    "recall": 0.7777777777777778,
+    "f1-score": 0.8750000000000001,
+    "support": 9
   },
   "give_logbook": {
     "precision": 1.0,
@@ -167,71 +125,17 @@
     "f1-score": 1.0,
     "support": 7
   },
-  "investment_money": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 11
-  },
-  "deny": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13
-  },
-  "choose_access_controlled": {
+  "choose_townhouse": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 5
   },
-  "give_id": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 10
-  },
-  "choose_one_month_or_less": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3
-  },
-  "choose_tile": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5
-  },
-  "affirm": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 20
-  },
-  "choose_equites": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4
-  },
-  "choose_health_insurance": {
-    "precision": 1.0,
-    "recall": 0.6,
-    "f1-score": 0.7499999999999999,
-    "support": 5
-  },
-  "give_account_number": {
+  "give_name_account": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6
-  },
-  "choose_take_sustancial_risk": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7
   },
   "choose_brick": {
     "precision": 1.0,
@@ -239,67 +143,13 @@
     "f1-score": 1.0,
     "support": 7
   },
-  "choose_lower_1.8": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5
-  },
-  "give_address": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7
-  },
-  "accept_offer": {
+  "choose_contents": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6
   },
-  "ask_for_quote": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 9
-  },
-  "say_rent": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 8
-  },
-  "choose_retirement": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7
-  },
-  "give_licence": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5
-  },
-  "bot_challenge": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4
-  },
-  "choose_car_insurance": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 6
-  },
-  "give_name_bank": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 19
-  },
-  "give_name": {
+  "ask_for_quick_quote": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -311,11 +161,17 @@
     "f1-score": 1.0,
     "support": 8
   },
-  "give_otp": {
-    "precision": 0.3333333333333333,
+  "accept_offer": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.5,
-    "support": 5
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "choose_proceed_with_quote": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4
   },
   "give_branch_code": {
     "precision": 1.0,
@@ -323,22 +179,166 @@
     "f1-score": 1.0,
     "support": 5
   },
+  "give_rommates_amount": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20
+  },
+  "choose_one_month_or_less": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "choose_complex": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6
+  },
+  "choose_residencial_propuse": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "choose_two_funds": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4
+  },
+  "choose_high_capital": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 7
+  },
+  "ask_for_quote": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9
+  },
+  "give_type_account": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16
+  },
+  "choose_car_insurance": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 6
+  },
+  "give_licence": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "give_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11
+  },
+  "choose_retirement": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "choose_take_sustancial_risk": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "give_email": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18
+  },
+  "give_money_amount": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9
+  },
+  "choose_security_gate": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "give_tel": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6
+  },
+  "choose_comprehensive_insurance": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 5
+  },
+  "give_address": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7
+  },
+  "give_account_number": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6
+  },
+  "choose_plan_of_3_years": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10
+  },
   "micro avg": {
-    "precision": 0.9630434782608696,
-    "recall": 0.9630434782608696,
-    "f1-score": 0.9630434782608696,
-    "support": 460
+    "precision": 0.9631236442516269,
+    "recall": 0.9631236442516269,
+    "f1-score": 0.9631236442516269,
+    "support": 461
   },
   "macro avg": {
     "precision": 0.9779889538661469,
     "recall": 0.9559728379172824,
-    "f1-score": 0.959277794438613,
-    "support": 460
+    "f1-score": 0.9592777944386133,
+    "support": 461
   },
   "weighted avg": {
-    "precision": 0.9816170861937453,
-    "recall": 0.9630434782608696,
-    "f1-score": 0.9671236724755032,
-    "support": 460
+    "precision": 0.9816569623625223,
+    "recall": 0.9631236442516269,
+    "f1-score": 0.9671949877195909,
+    "support": 461
   }
 }

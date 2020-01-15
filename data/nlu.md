@@ -5,6 +5,7 @@
 - I accept, sign me up
 - sign me, please
 - ok, sign me up
+- I accept
 
 ## intent:affirm
 - yes
@@ -390,6 +391,7 @@
 - [Larry Fields](PERSON)
 - This is [Kelly Trump](PERSON)
 - [Jack Freeman](PERSON)
+- [Kelly](PERSON)
 
 ## intent:give_name_account
 - B.Gills
@@ -522,7 +524,6 @@
 ## intent:say_rent
 - rent
 - I rent it
-- i rent it
 - i rent
 - I'm renting
 - live for rent
