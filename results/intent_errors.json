@@ -4,7 +4,23 @@
     "intent": "choose_high_capital",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3813876807689667
+      "confidence": 0.273593932390213
+    }
+  },
+  {
+    "text": "number 3",
+    "intent": "choose_number_3",
+    "intent_prediction": {
+      "name": "choose_comprehensive_insurance",
+      "confidence": 0.22369228303432465
+    }
+  },
+  {
+    "text": "number 3",
+    "intent": "choose_number_3",
+    "intent_prediction": {
+      "name": "choose_comprehensive_insurance",
+      "confidence": 0.22369228303432465
     }
   },
   {
@@ -12,15 +28,15 @@
     "intent": "choose_number_3",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3813876807689667
+      "confidence": 0.273593932390213
     }
   },
   {
     "text": "number 1",
     "intent": "choose_car_insurance",
     "intent_prediction": {
-      "name": "choose_number_3",
-      "confidence": 0.25494325160980225
+      "name": "choose_comprehensive_insurance",
+      "confidence": 0.22369228303432465
     }
   },
   {
@@ -28,15 +44,15 @@
     "intent": "choose_car_insurance",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3813876807689667
+      "confidence": 0.273593932390213
     }
   },
   {
     "text": "number 2",
     "intent": "choose_health_insurance",
     "intent_prediction": {
-      "name": "choose_number_3",
-      "confidence": 0.25494325160980225
+      "name": "choose_comprehensive_insurance",
+      "confidence": 0.22369228303432465
     }
   },
   {
@@ -44,7 +60,7 @@
     "intent": "choose_health_insurance",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3813876807689667
+      "confidence": 0.273593932390213
     }
   },
   {
@@ -52,15 +68,15 @@
     "intent": "choose_plan_of_3_years",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3813876807689667
+      "confidence": 0.273593932390213
     }
   },
   {
     "text": "number 2",
     "intent": "choose_thrid-party_fire_theft",
     "intent_prediction": {
-      "name": "choose_number_3",
-      "confidence": 0.25494325160980225
+      "name": "choose_comprehensive_insurance",
+      "confidence": 0.22369228303432465
     }
   },
   {
@@ -68,15 +84,15 @@
     "intent": "choose_thrid-party_fire_theft",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3813876807689667
+      "confidence": 0.273593932390213
     }
   },
   {
     "text": "number 3",
     "intent": "choose_third_party",
     "intent_prediction": {
-      "name": "choose_number_3",
-      "confidence": 0.25494325160980225
+      "name": "choose_comprehensive_insurance",
+      "confidence": 0.22369228303432465
     }
   },
   {
@@ -84,15 +100,7 @@
     "intent": "choose_third_party",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3813876807689667
-    }
-  },
-  {
-    "text": "number 1",
-    "intent": "choose_comprehensive_insurance",
-    "intent_prediction": {
-      "name": "choose_number_3",
-      "confidence": 0.25494325160980225
+      "confidence": 0.273593932390213
     }
   },
   {
@@ -100,7 +108,7 @@
     "intent": "choose_comprehensive_insurance",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3813876807689667
+      "confidence": 0.273593932390213
     }
   },
   {
@@ -108,7 +116,7 @@
     "intent": "give_rommates_amount",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3813876807689667
+      "confidence": 0.273593932390213
     }
   },
   {
@@ -116,7 +124,7 @@
     "intent": "give_rommates_amount",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.3813876807689667
+      "confidence": 0.273593932390213
     }
   },
   {
@@ -124,7 +132,7 @@
     "intent": "chitchat",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.5258094072341919
+      "confidence": 0.7734134793281555
     }
   },
   {
@@ -132,7 +140,7 @@
     "intent": "chitchat",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.5843815803527832
+      "confidence": 0.7986230850219727
     }
   }
 ]

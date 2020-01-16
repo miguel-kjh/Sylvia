@@ -423,11 +423,11 @@
 - FNB
 
 ## intent:give_otp
-- 1728
-- 9384
-- 9387
-- 8475
-- 4444
+- [1728](OTP)
+- [9384](OTP)
+- [9387](OTP)
+- [8475](OTP)
+- [4444](OTP)
 
 ## intent:give_rommates_amount
 - 2 rommates

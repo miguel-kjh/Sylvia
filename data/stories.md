@@ -411,7 +411,9 @@
 * goodbye OR deny
     - utter_goodbye
 
-
+## rent it story
+* say_rent
+    - utter_ask_roommates
 
 ## fallback story
 * out_of_scope

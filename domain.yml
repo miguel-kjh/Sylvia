@@ -86,6 +86,7 @@ entities:
 - PERSON
 - TELEPHONE
 - EMAIL
+- OTP
 intents:
 - give_tel
 - ask_for_quick_quote
