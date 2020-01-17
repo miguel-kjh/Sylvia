@@ -1,34 +1,26 @@
 [
   {
-    "text": "4",
-    "intent": "choose_high_capital",
+    "text": "i choose contents",
+    "intent": "choose_contents",
     "intent_prediction": {
-      "name": "give_otp",
-      "confidence": 0.273593932390213
+      "name": "chitchat",
+      "confidence": 0.07938034859936084
     }
   },
   {
-    "text": "number 3",
-    "intent": "choose_number_3",
+    "text": "I have knowledge in equities",
+    "intent": "choose_equites",
     "intent_prediction": {
-      "name": "choose_comprehensive_insurance",
-      "confidence": 0.22369228303432465
+      "name": "investment_money",
+      "confidence": 0.05125364643466045
     }
   },
   {
-    "text": "number 3",
-    "intent": "choose_number_3",
+    "text": "I am familiar with the equities",
+    "intent": "choose_equites",
     "intent_prediction": {
-      "name": "choose_comprehensive_insurance",
-      "confidence": 0.22369228303432465
-    }
-  },
-  {
-    "text": "3",
-    "intent": "choose_number_3",
-    "intent_prediction": {
-      "name": "give_otp",
-      "confidence": 0.273593932390213
+      "name": "chitchat",
+      "confidence": 0.06889776225200729
     }
   },
   {
@@ -36,95 +28,103 @@
     "intent": "choose_car_insurance",
     "intent_prediction": {
       "name": "choose_comprehensive_insurance",
-      "confidence": 0.22369228303432465
-    }
-  },
-  {
-    "text": "1",
-    "intent": "choose_car_insurance",
-    "intent_prediction": {
-      "name": "give_otp",
-      "confidence": 0.273593932390213
+      "confidence": 0.12761504584408304
     }
   },
   {
     "text": "number 2",
     "intent": "choose_health_insurance",
     "intent_prediction": {
-      "name": "choose_comprehensive_insurance",
-      "confidence": 0.22369228303432465
+      "name": "choose_thrid-party_fire_theft",
+      "confidence": 0.13644721491971928
     }
   },
   {
     "text": "2",
     "intent": "choose_health_insurance",
     "intent_prediction": {
-      "name": "give_otp",
-      "confidence": 0.273593932390213
+      "name": "choose_thrid-party_fire_theft",
+      "confidence": 0.18058845027542947
     }
   },
   {
     "text": "3",
     "intent": "choose_plan_of_3_years",
     "intent_prediction": {
-      "name": "give_otp",
-      "confidence": 0.273593932390213
+      "name": "choose_number_3",
+      "confidence": 0.14684446562040643
     }
   },
   {
-    "text": "number 2",
-    "intent": "choose_thrid-party_fire_theft",
+    "text": "we are safe thanks to a security door",
+    "intent": "choose_security_gate",
     "intent_prediction": {
-      "name": "choose_comprehensive_insurance",
-      "confidence": 0.22369228303432465
-    }
-  },
-  {
-    "text": "2",
-    "intent": "choose_thrid-party_fire_theft",
-    "intent_prediction": {
-      "name": "give_otp",
-      "confidence": 0.273593932390213
+      "name": "chitchat",
+      "confidence": 0.0996445370810838
     }
   },
   {
     "text": "number 3",
     "intent": "choose_third_party",
     "intent_prediction": {
-      "name": "choose_comprehensive_insurance",
-      "confidence": 0.22369228303432465
+      "name": "choose_number_3",
+      "confidence": 0.14150508048003393
     }
   },
   {
     "text": "3",
     "intent": "choose_third_party",
     "intent_prediction": {
-      "name": "give_otp",
-      "confidence": 0.273593932390213
+      "name": "choose_number_3",
+      "confidence": 0.14684446562040643
     }
   },
   {
     "text": "1",
     "intent": "choose_comprehensive_insurance",
     "intent_prediction": {
-      "name": "give_otp",
-      "confidence": 0.273593932390213
+      "name": "choose_car_insurance",
+      "confidence": 0.18179853148019745
     }
   },
   {
-    "text": "5",
-    "intent": "give_rommates_amount",
+    "text": "R10000",
+    "intent": "give_money_amount",
     "intent_prediction": {
       "name": "give_otp",
-      "confidence": 0.273593932390213
+      "confidence": 0.14780664285157988
+    }
+  },
+  {
+    "text": "R100,000.00",
+    "intent": "give_money_amount",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.14780664285157988
+    }
+  },
+  {
+    "text": "Ubank",
+    "intent": "give_name_bank",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.14780664285157988
+    }
+  },
+  {
+    "text": "TymeBank",
+    "intent": "give_name_bank",
+    "intent_prediction": {
+      "name": "give_otp",
+      "confidence": 0.14780664285157988
     }
   },
   {
     "text": "1",
     "intent": "give_rommates_amount",
     "intent_prediction": {
-      "name": "give_otp",
-      "confidence": 0.273593932390213
+      "name": "choose_car_insurance",
+      "confidence": 0.18179853148019745
     }
   },
   {
@@ -132,15 +132,7 @@
     "intent": "chitchat",
     "intent_prediction": {
       "name": "greet",
-      "confidence": 0.7734134793281555
-    }
-  },
-  {
-    "text": "how are you doing",
-    "intent": "chitchat",
-    "intent_prediction": {
-      "name": "greet",
-      "confidence": 0.7986230850219727
+      "confidence": 0.26358803206658865
     }
   }
 ]

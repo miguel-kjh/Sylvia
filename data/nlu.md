@@ -239,6 +239,8 @@
 - 1. Comprehensive car insurance
 - Comprehensive car insurance
 - Comprehensive car
+- Comprehensive, please
+- comprehensive
 - number 1
 - 1 
 
@@ -392,6 +394,7 @@
 - This is [Kelly Trump](PERSON)
 - [Jack Freeman](PERSON)
 - [Kelly](PERSON)
+- [PIPO](PERSON)
 
 ## intent:give_name_account
 - B.Gills
@@ -428,6 +431,12 @@
 - [9387](OTP)
 - [8475](OTP)
 - [4444](OTP)
+- [9743](OTP)
+- [3204](OTP)
+- [2844](OTP)
+- [1111](OTP)
+- [0294](OTP)
+- [0193](OTP)
 
 ## intent:give_rommates_amount
 - 2 rommates
@@ -568,6 +577,7 @@
 - Beautiful day, isn't it?
 - What's the weather forecast?
 - Is it quite breezy outside?
+- How can I kill myself?
 
 
 ## regex:give_account_number

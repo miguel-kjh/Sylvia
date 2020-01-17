@@ -1,21 +1,27 @@
 {
+  "DATE": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9
+  },
+  "ADDRESS": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 55
+  },
   "PERSON": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 21
+    "support": 22
   },
   "TELEPHONE": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 18
-  },
-  "OTP": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5
   },
   "ID": {
     "precision": 1.0,
@@ -35,34 +41,28 @@
     "f1-score": 0.9714285714285714,
     "support": 18
   },
-  "DATE": {
+  "OTP": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 9
-  },
-  "ADDRESS": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 40
+    "support": 11
   },
   "micro avg": {
     "precision": 1.0,
-    "recall": 0.9936305732484076,
-    "f1-score": 0.9968051118210862,
-    "support": 157
+    "recall": 0.994413407821229,
+    "f1-score": 0.9971988795518207,
+    "support": 179
   },
   "macro avg": {
     "precision": 1.0,
     "recall": 0.9930555555555556,
     "f1-score": 0.9964285714285714,
-    "support": 157
+    "support": 179
   },
   "weighted avg": {
     "precision": 1.0,
-    "recall": 0.9936305732484076,
-    "f1-score": 0.9967242948134667,
-    "support": 157
+    "recall": 0.994413407821229,
+    "f1-score": 0.9971268954509177,
+    "support": 179
   }
 }
